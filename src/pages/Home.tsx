@@ -1,15 +1,14 @@
 // Home.tsx
-import Hero from '../components/Hero'
-import Card from '../components/Cards'
+import Hero from '../components/Hero';
+import RecentNews from '../components/RecentNews';
 
 function Home() {
   return (
     <main>
       <Hero />
-      <Card />
+      <RecentNews />
     </main>
-  )
+  );
 }
 
-export default Home
-
+export default Home;

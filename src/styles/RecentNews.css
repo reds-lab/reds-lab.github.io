@@ -1,0 +1,37 @@
+/* RecentNews.css */
+.recent-news {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .recent-news .container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .recent-news h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .recent-news ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .recent-news li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .recent-news li span {
+    font-weight: bold;
+  }
+  
+  .recent-news li ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }

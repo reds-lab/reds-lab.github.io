@@ -1,0 +1,33 @@
+.contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #861F41; /* Virginia Tech's Chicago Maroon */
+  }
+  
+  .contact-section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #CF4420; /* Virginia Tech's Burnt Orange */
+    border-bottom: 2px solid #CF4420;
+    padding-bottom: 5px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  a {
+    color: #861F41; /* Virginia Tech's Chicago Maroon */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
