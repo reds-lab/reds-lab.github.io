@@ -1,0 +1,72 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set base font and color */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Set default heading styles */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1em; }
+
+/* Set default paragraph styles */
+p {
+  margin-bottom: 1em;
+}
+
+/* Set default link styles */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Set default list styles */
+ul, ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+/* Set default image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Set default button styles */
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+/* Set default form element styles */
+input, textarea, select {
+  font-family: inherit;
+  font-size: 1em;
+}
