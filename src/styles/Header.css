@@ -1,143 +1,140 @@
-/* Header.css */
 .header {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    position: relative;
-    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #fff;
   }
   
   .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
   }
   
   .header-logo {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: inherit;
   }
   
   .header-icon {
     width: 40px;
     height: 40px;
-    margin-right: 1rem;
+    margin-right: 10px;
   }
   
   .header-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-    margin: 0;
-  }
-  
-  .header-nav ul {
+    font-size: 2.5em;
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header-nav li {
-    margin-left: 1.5rem;
-  }
-  
-  .header-nav a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
-  }
-  
-  .header-nav a:hover {
-    color: #0077cc;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
   }
   
   .menu-toggle {
     display: none;
   }
   
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+  }
+  
+  .hamburger span {
+    height: 2px;
+    background-color: #000;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    margin-left: 20px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .header-icons a {
+    color: inherit;
+    margin-left: 10px;
+  }
+  
+  .github-link,
+  .twitter-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+  }
+  
   @media (max-width: 768px) {
-    .header-nav.mobile {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background-color: rgba(255, 255, 255, 0.95);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transform: translateX(-100%);
-      transition: transform 0.3s ease-in-out;
-      z-index: 999;
-    }
-  
-    .header-nav.mobile.open {
-      transform: translateX(0);
-    }
-  
-    .header-nav.mobile ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .header-nav.mobile li {
-      margin: 1rem 0;
-    }
-  
-    .header-nav.mobile a {
-      font-size: 1.5rem;
-    }
-  
     .menu-toggle {
       display: block;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 0.5rem;
-      z-index: 1001;
     }
   
-    .hamburger {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      width: 30px;
-      height: 21px;
-    }
-  
-    .hamburger span {
-      display: block;
-      height: 3px;
+    .header-nav {
+      position: fixed;
+      top: 0;
+      left: -100%;
       width: 100%;
-      background-color: #333;
-      transition: all 0.3s ease;
+      height: 100%;
+      background-color: #fff;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      transition: left 0.3s ease-in-out;
+      z-index: 10;
     }
   
-    .menu-toggle.open .hamburger span:nth-child(1) {
-      transform: translateY(9px) rotate(45deg);
+    .header-nav.open {
+      left: 0;
     }
   
-    .menu-toggle.open .hamburger span:nth-child(2) {
-      opacity: 0;
+    .header-nav ul {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
     }
   
-    .menu-toggle.open .hamburger span:nth-child(3) {
-      transform: translateY(-9px) rotate(-45deg);
+    .header-nav li {
+      margin: 10px 0;
     }
   
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border-width: 0;
+    .header-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .header-icons a {
+      margin: 0 10px;
     }
   }
+  

@@ -1,41 +1,40 @@
-// Header.tsx
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { FaGithub } from 'react-icons/fa'
-import redsLabIcon from '../assets/reds-lab-logo.png'
-import "../styles/Header.css"
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { FaGithub, FaTwitter } from 'react-icons/fa';
+import redsLabIcon from '../assets/reds-lab-logo.png';
+import "../styles/Header.css";
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768)
+      setIsMobile(window.innerWidth <= 768);
       if (window.innerWidth > 768) {
-        setIsMenuOpen(false)
+        setIsMenuOpen(false);
       }
-    }
+    };
 
-    window.addEventListener('resize', handleResize)
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     if (isMenuOpen && isMobile) {
-      document.body.style.overflow = 'hidden'
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = 'visible'
+      document.body.style.overflow = 'visible';
     }
 
     return () => {
-      document.body.style.overflow = 'visible'
-    }
-  }, [isMenuOpen, isMobile])
+      document.body.style.overflow = 'visible';
+    };
+  }, [isMenuOpen, isMobile]);
 
   return (
     <header className="header">
@@ -61,14 +60,19 @@ function Header() {
             <li><Link to="/publications" onClick={isMobile ? toggleMenu : undefined}>Publications</Link></li>
             <li><Link to="/contact" onClick={isMobile ? toggleMenu : undefined}>Contact</Link></li>
             <li><Link to="/photos" onClick={isMobile ? toggleMenu : undefined}>Photos</Link></li>
+            <div className="header-icons">
+              <a href="https://github.com/reds-lab" target="_blank" rel="noopener noreferrer" className="github-link">
+                <FaGithub size={24} />
+              </a>
+              <a href="https://twitter.com/reds-lab" target="_blank" rel="noopener noreferrer" className="twitter-link">
+                <FaTwitter size={24} />
+              </a>
+            </div>
           </ul>
         </nav>
-        <a href="https://github.com/reds-lab" target="_blank" rel="noopener noreferrer" className="github-link">
-          <FaGithub size={24} />
-        </a>
       </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

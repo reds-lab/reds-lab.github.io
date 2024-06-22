@@ -8,13 +8,13 @@ import Research from './pages/Research'
 import Publications from './pages/Publications'
 import Contact from './pages/Contact'
 import Photos from './pages/Photos'
-
+import "./App.css"
 function App() {
   return (
     <Router>
-      <div className="App">
+      <>
         <Header />
-        <main>
+        <main className="container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/people" element={<People />} />
@@ -25,7 +25,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
-      </div>
+      </>
     </Router>
   )
 }

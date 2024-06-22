@@ -5,12 +5,6 @@
     padding-bottom: 2rem;
   }
   
-  .recent-news .container {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
   .recent-news h2 {
     font-size: 1.5rem;
     font-weight: bold;

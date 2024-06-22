@@ -2,23 +2,24 @@ import React from 'react';
 import '../styles/Research.css';
 
 const researchAreas = [
-  {
-    title: "Human-Robot Interaction",
-    description: "Focusing on creating intelligent systems that can safely and effectively interact with humans."
-  },
-  {
-    title: "Machine Learning for Robotics",
-    description: "Developing algorithms that enable robots to learn and adapt in complex environments."
-  },
-  {
-    title: "Autonomous Systems",
-    description: "Designing reliable and safe autonomous systems for various applications."
-  }
-];
+    {
+      title: "Trust in AI Systems",
+      description: "Exploring methodologies to enhance user trust in AI systems through transparency, reliability, and ethical considerations."
+    },
+    {
+      title: "Safety in Autonomous Systems",
+      description: "Developing robust safety protocols and fail-safes for autonomous systems to operate reliably in dynamic environments."
+    },
+    {
+      title: "Machine Learning Security",
+      description: "Investigating vulnerabilities in machine learning models and creating defenses against adversarial attacks."
+    }
+  ];
+  
 
 const Research: React.FC = () => {
   return (
-    <div className="research-page">
+    <>
       <h1>Research</h1>
       {researchAreas.map((area, index) => (
         <section key={index}>
@@ -26,7 +27,7 @@ const Research: React.FC = () => {
           <p>{area.description}</p>
         </section>
       ))}
-    </div>
+    </>
   );
 };
 
