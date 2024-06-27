@@ -1,7 +1,7 @@
 import ruoxiJiaImage from "./profile/ruoxi jia.png";
 import yiZengImage from "./profile/yi zeng.png";
 import siChenImage from "./profile/si chen.png";
-// import myeonseobKoImage from "./profile/myeonseob ko.png";
+import myeongseobKoImage from "./profile/myeongseob ko.png";
 import hoangJustImage from "./profile/hoang just.png";
 import feiyangKangImage from "./profile/feiyang kang.png";
 import mahavirDabasImage from "./profile/mahavir dabas.png";
@@ -58,9 +58,9 @@ export const peopleData = [
         }
       },
       {
-        profileImage: "",
-        name: "Myeonseob Ko",
-        details: "Myeonseob is a PhD student in the Electrical and Computer Engineering Department. His work is focused on the intersection of human-robot-interaction and natural language processing.",
+        profileImage: myeongseobKoImage,
+        name: "Myeongseob Ko",
+        details: "Myeongseob is a PhD student in the Electrical and Computer Engineering Department. His work is focused on the intersection of human-robot-interaction and natural language processing.",
         coAdvised: "",
         links: {
           website: "https://myeonseob.com",
