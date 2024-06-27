@@ -1,7 +1,7 @@
 import groupPhoto1 from './images/group_photo_1.jpg';
 import groupPhoto2 from './images/group_photo_2.jpg';
 import groupPhoto3 from './images/group_photo_3.jpg';
-import groupPhoto4 from './images/group_photo_3.jpg';
+import groupPhoto4 from './images/group_photo_4.jpg';
 // Import additional photos as needed
 
 interface ImageCaption {
