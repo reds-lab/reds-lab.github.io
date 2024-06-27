@@ -45,7 +45,6 @@ function Header() {
         </Link>
         {isMobile ? (
           <button className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-            <span className="sr-only">Toggle menu</span>
             <div className="hamburger">
               <span></span>
               <span></span>
