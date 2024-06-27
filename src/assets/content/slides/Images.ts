@@ -20,10 +20,10 @@ export const groupPhotos: ImageCaption[] = [
   },
   {
     img: groupPhoto3,
-    caption: '3/2024 - casual bowling photo'
+    caption: '3/2024 - fun bowling photo'
   },
   {
     img: groupPhoto4,
-    caption: '3/2024 - fun bowling photo'
+    caption: '3/2024 - casual bowling photo'
   },
 ];
