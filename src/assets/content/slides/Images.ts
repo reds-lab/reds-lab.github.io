@@ -12,18 +12,18 @@ interface ImageCaption {
 export const groupPhotos: ImageCaption[] = [
   {
     img: groupPhoto1,
-    caption: 'Lab outing to the beach, Summer 2023'
+    caption: '10/2021'
   },
   {
     img: groupPhoto2,
-    caption: 'Conference presentation at AACR 2024'
+    caption: '3/2023 in Claytor Lake'
   },
   {
     img: groupPhoto3,
-    caption: 'Holiday party, December 2023'
+    caption: '3/2024 - casual bowling photo'
   },
   {
     img: groupPhoto4,
-    caption: 'test'
+    caption: '3/2024 - fun bowling photo'
   },
 ];
