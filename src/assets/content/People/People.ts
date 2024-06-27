@@ -3,7 +3,7 @@ export const peopleData = [
     title: "Faculty Members",
     people: [
       {
-        profileImage: "src/assets/content/people/profile/ruoxi jia.png",
+        profileImage: "@/assets/content/people/profile/ruoxi jia.png",
         name: "Ruoxi Jia",
         details: "Ruoxi Jia is an Assistant Professor in the Electrical and Computer Engineering Department. Her work is focused on the design of algorithms for AI agents and autonomous systems that safely and reliably interact with other intelligent agents including humans.",
         links: {
@@ -24,7 +24,7 @@ export const peopleData = [
     title: "PhD Students",
     people: [
       {
-        profileImage: "src/assets/content/people/profile/yi zeng.png",
+        profileImage: "@/assets/content/people/profile/yi zeng.png",
         name: "Yi Zeng",
         details: "Yi is a PhD student in the Electrical and Computer Engineering department. He is broadly interested in enabling robots to perceive and reason about dynamic real world environments.",
         links: {
@@ -36,7 +36,7 @@ export const peopleData = [
         }
       },
       {
-        profileImage: "src/assets/content/people/profile/si chen.png",
+        profileImage: "@/assets/content/people/profile/si chen.png",
         name: "Si Chen",
         details: "Si is a PhD student in the Electrical and Computer Engineering department. Her research interests include machine learning and computer vision.",
         links: {
@@ -48,7 +48,7 @@ export const peopleData = [
         }
       },
       {
-        profileImage: "src/assets/content/people/profile/myeonseob ko.png",
+        profileImage: "@/assets/content/people/profile/myeonseob ko.png",
         name: "Myeonseob Ko",
         details: "Myeonseob is a PhD student in the Electrical and Computer Engineering Department. His work is focused on the intersection of human-robot-interaction and natural language processing.",
         coAdvised: "",
@@ -61,7 +61,7 @@ export const peopleData = [
         }
       },
       {
-        profileImage: "src/assets/content/people/profile/hoang just.png",
+        profileImage: "@/assets/content/people/profile/hoang just.png",
         name: "Hoang Just",
         details: "Hoang is a PhD student in the Electrical and Computer Engineering department. His research focuses on developing robust and efficient algorithms for autonomous systems.",
         links: {
@@ -73,7 +73,7 @@ export const peopleData = [
         }
       },
       {
-        profileImage: "src/assets/content/people/profile/feiyang kang.png",
+        profileImage: "@/assets/content/people/profile/feiyang kang.png",
         name: "Feiyang Kang",
         details: "Feiyang is a PhD student in the Electrical and Computer Engineering department. His research focuses on advanced machine learning techniques for robotics and autonomous systems.",
         links: {
@@ -90,7 +90,7 @@ export const peopleData = [
     title: "MS Students",
     people: [
       {
-        profileImage: "src/assets/content/people/profile/mahavir dabas.png",
+        profileImage: "@/assets/content/people/profile/mahavir dabas.png",
         name: "Mahavir Dabas",
         details: "Mahavir is an MS student in the Electrical and Computer Engineering department. His work focuses on developing intelligent systems for robotics applications.",
         links: {
@@ -107,7 +107,7 @@ export const peopleData = [
     title: "Undergraduate Students",
     people: [
       {
-        profileImage: "src/assets/content/people/profile/adam nguyen.png",
+        profileImage: "@/assets/content/people/profile/adam nguyen.png",
         name: "Adam Nguyen",
         details: "Adam is an undergraduate student in the Computer Science department. He is interested in exploring the applications of AI in real-world scenarios.",
         links: {
@@ -124,7 +124,7 @@ export const peopleData = [
     title: "Past Alumni",
     people: [
       {
-        profileImage: "src/assets/content/people/profile/minzhou pan.png",
+        profileImage: "@/assets/content/people/profile/minzhou pan.png",
         name: "Minzhou Pan",
         details: "Minzhou was a PhD student in the Electrical and Computer Engineering department. They worked on developing advanced algorithms for autonomous systems.",
         links: {
