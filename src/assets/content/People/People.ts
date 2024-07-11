@@ -7,7 +7,7 @@ import feiyangKangImage from "./profile/feiyang kang.png";
 import mahavirDabasImage from "./profile/mahavir dabas.png";
 import adamNguyenImage from "./profile/adam nguyen.png";
 import minzhouPanImage from "./profile/minzhou pan.png";
-// import tranHuynhImage from "./profile/tran huynh.png";
+import tranHuynhImage from "./profile/tran huynh.png";
 
 export const peopleData = [
   {
@@ -95,7 +95,7 @@ export const peopleData = [
         }
       },
       {
-        profileImage: "",
+        profileImage: tranHuynhImage,
         name: "Tran Huynh",
         details: "Tran's research focuses on understanding the vulnerabilities of AI models and advancing the robustness of AI systems against adversarial threats.",
         links: {

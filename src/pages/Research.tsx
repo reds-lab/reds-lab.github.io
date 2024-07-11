@@ -2,7 +2,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Research.css';
-
+import dataCentric from "../assets/content/Research/data_centric.gif"
+import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
+import privacyImage from "../assets/content/Research/privacy.webp"
 const Research: React.FC = () => {
   return (
     <div className="research-page">
@@ -21,9 +23,7 @@ const Research: React.FC = () => {
         <table className="research-bubble">
           <tr>
             <td className="rb-img">
-              <Link to="/research/data-centric-ai">
-                <img src="/research/website_images/data-centric-ai.gif" alt="Data-Centric AI" />
-              </Link>
+              <img src={dataCentric} alt="Data-Centric AI" />
             </td>
             <td className="rb-text">
               <Link to="/research/data-centric-ai">Better Data, Better Models</Link>
@@ -31,9 +31,7 @@ const Research: React.FC = () => {
           </tr>
           <tr>
             <td className="rb-img">
-              <Link to="/research/safety-security-alignment">
-                <img src="/research/website_images/safety-security-alignment.gif" alt="Safety, Security, and Alignment" />
-              </Link>
+              <img src={ssaImage} alt="Safety, Security, and Alignment" />
             </td>
             <td className="rb-text">
               <Link to="/research/safety-security-alignment">Safety, Security, and Alignment</Link>
@@ -41,9 +39,7 @@ const Research: React.FC = () => {
           </tr>
           <tr>
             <td className="rb-img">
-              <Link to="/research/privacy">
-                <img src="/research/website_images/privacy.gif" alt="Privacy" />
-              </Link>
+              <img src={privacyImage} alt="Privacy" />
             </td>
             <td className="rb-text">
               <Link to="/research/privacy">Privacy Risk Assessment</Link>

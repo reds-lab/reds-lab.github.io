@@ -26,33 +26,53 @@
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: background-color 0.3s;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+  height: 25vh; /* Adjust this value as needed */
 }
 
 .research-bubble tr:hover {
   background-color: rgba(112, 173, 71, 0.12);
 }
 
-.research-bubble tr td {
-  display: block;
-}
-
 .research-bubble tr td.rb-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20vh;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .research-bubble tr td.rb-img img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  padding-bottom: 0;
 }
 
 .research-bubble tr td.rb-text {
-  display: block;
-  height: 5vh;
-  padding-top: 0;
-  padding-bottom: 1vh;
-  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.research-bubble tr:hover td.rb-text {
+  opacity: 1;
+}
+
+.research-bubble tr td.rb-text a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }

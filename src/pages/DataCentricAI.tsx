@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import '../styles/Research.css';  // Assuming you have this CSS file
 import { renderPublications } from './Publications';
 import { dataAttributionAndInfluence, dataSelection, activeLearning } from '../assets/content/Research/data-centric'
+import dataCentric from "../assets/content/Research/data_centric.gif"
+import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
+import privacyImage from "../assets/content/Research/privacy.webp"
+
+
 const DataCentricAI: React.FC = () => {
   return (
     <div className="research-page">
@@ -10,12 +15,10 @@ const DataCentricAI: React.FC = () => {
         <h1 className="h2">Data-Centric AI</h1>
       </header>
       <article className="research-content">
-        <table className="research-bubble">
+      <table className="research-bubble">
           <tr>
             <td className="rb-img">
-              <Link to="/research/data-centric-ai">
-                <img src="/research/website_images/data-centric-ai.gif" alt="Data-Centric AI" />
-              </Link>
+              <img src={dataCentric} alt="Data-Centric AI" />
             </td>
             <td className="rb-text">
               <Link to="/research/data-centric-ai">Better Data, Better Models</Link>
@@ -23,9 +26,7 @@ const DataCentricAI: React.FC = () => {
           </tr>
           <tr>
             <td className="rb-img">
-              <Link to="/research/safety-security-alignment">
-                <img src="/research/website_images/safety-security-alignment.gif" alt="Safety, Security, and Alignment" />
-              </Link>
+              <img src={ssaImage} alt="Safety, Security, and Alignment" />
             </td>
             <td className="rb-text">
               <Link to="/research/safety-security-alignment">Safety, Security, and Alignment</Link>
@@ -33,9 +34,7 @@ const DataCentricAI: React.FC = () => {
           </tr>
           <tr>
             <td className="rb-img">
-              <Link to="/research/privacy">
-                <img src="/research/website_images/privacy.gif" alt="Privacy" />
-              </Link>
+              <img src={privacyImage} alt="Privacy" />
             </td>
             <td className="rb-text">
               <Link to="/research/privacy">Privacy Risk Assessment</Link>
