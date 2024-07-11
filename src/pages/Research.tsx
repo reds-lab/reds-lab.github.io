@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Research.css';
 import dataCentric from "../assets/content/Research/data_centric.gif"
-import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
+import ssaImage from "../assets/content/Research/safetysecurityalignment.gif?url"
 import privacyImage from "../assets/content/Research/privacy.webp"
 
 const Research: React.FC = () => {
