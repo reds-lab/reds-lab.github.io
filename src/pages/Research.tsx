@@ -5,6 +5,7 @@ import '../styles/Research.css';
 import dataCentric from "../assets/content/Research/data_centric.gif"
 import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
 import privacyImage from "../assets/content/Research/privacy.webp"
+
 const Research: React.FC = () => {
   return (
     <div className="research-page">
@@ -31,7 +32,7 @@ const Research: React.FC = () => {
           </tr>
           <tr>
             <td className="rb-img">
-              <img src={ssaImage} alt="Safety, Security, and Alignment" />
+               <img src={ssaImage} alt="Safety, Security, and Alignment" />
             </td>
             <td className="rb-text">
               <Link to="/research/safety-security-alignment">Safety, Security, and Alignment</Link>
