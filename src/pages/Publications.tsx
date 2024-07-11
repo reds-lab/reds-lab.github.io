@@ -1,42 +1,29 @@
 import React from 'react';
 import '../styles/Publications.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faLink, faCode } from '@fortawesome/free-solid-svg-icons';
-import arxivIcon from "../assets/arxiv-logomark-small.svg"; // Update the path to your SVG
+import { faDownload, faLink, faCode, faFile } from '@fortawesome/free-solid-svg-icons';
+import arxivIcon from "../assets/arxiv-logomark-small.svg";
 
-const publications = [
-  {
-    title: "Learning Robust Manipulation Policies from Demonstrations",
-    authors: "Jane Smith, John Doe, Alice Johnson",
-    conference: "IEEE International Conference on Robotics and Automation (ICRA), May 2023",
-    bibtex: `@inproceedings{smith2023learning, title={Learning Robust Manipulation Policies from Demonstrations}, author={Smith, Jane and Doe, John and Johnson, Alice}, booktitle={IEEE International Conference on Robotics and Automation (ICRA)}, year={2023}, month=may }`,
-    arxiv: "https://arxiv.org/abs/2302.11827",
-    website: "https://example.com/robust-manipulation"
-  },
-  {
-    title: "Efficient Exploration in Reinforcement Learning using Curiosity-Driven Agents",
-    authors: "Bob Brown, Charlie Davis, Eve Fisher",
-    conference: "Conference on Robot Learning (CoRL), October 2024",
-    bibtex: `@inproceedings{brown2024efficient, title={Efficient Exploration in Reinforcement Learning using Curiosity-Driven Agents}, author={Brown, Bob and Davis, Charlie and Fisher, Eve}, booktitle={Conference on Robot Learning (CoRL)}, year={2024}, month=oct }`,
-    code: "https://github.com/bobbrown/curious-agents"
-  },
-  {
-    title: "Multi-Task Learning for Robotic Grasping",
-    authors: "Grace Harris, Isaac Jenkins",
-    conference: "Robotics: Science and Systems (RSS), July 2023",
-    bibtex: `@inproceedings{harris2023multitask, title={Multi-Task Learning for Robotic Grasping}, author={Harris, Grace and Jenkins, Isaac}, booktitle={Robotics: Science and Systems (RSS)}, year={2023}, month=jul }`,
-    arxiv: "https://arxiv.org/abs/2301.08142"
-  },
-  {
-    title: "Sim-to-Real Transfer for Dexterous Manipulation",
-    authors: "Olivia Parker, Quinn Roberts",
-    conference: "International Symposium on Experimental Robotics (ISER), June 2024",
-    bibtex: `@inproceedings{parker2024simtoreal, title={Sim-to-Real Transfer for Dexterous Manipulation}, author={Parker, Olivia and Roberts, Quinn}, booktitle={International Symposium on Experimental Robotics (ISER)}, year={2024}, month=jun }`,
-    website: "https://example.com/sim-to-real"
-  }
-];
+import publications2020 from '../assets/content/Publications/2020pubs';
+import publications2021  from '../assets/content/Publications/2021pubs';
+import publicationsPre2020  from '../assets/content/Publications/pre2020pubs';
+import publications2022 from '../assets/content/Publications/2022pubs';
+import publications2023 from '../assets/content/Publications/2023pubs';
+import publications2024 from '../assets/content/Publications/2024pubs';
 
-const Publications: React.FC = () => {
+interface Publication {
+  title: string;
+  authors: string;
+  conference: string;
+  bibtex?: string;
+  arxiv?: string;
+  website?: string;
+  code?: string;
+  note?: string;
+  openreview?: string;
+}
+
+const renderPublications = (publications: Publication[]) => {
   const downloadBibtex = (filename: string, content: string) => {
     const element = document.createElement('a');
     const file = new Blob([content], { type: 'text/plain' });
@@ -48,42 +35,64 @@ const Publications: React.FC = () => {
   };
 
   return (
+    <table>
+      <tbody>
+        {publications.map((pub, index) => (
+          <tr key={index} style={{ height: '150px' }}>
+            <td>
+              <b>{pub.title}</b><br />
+              {pub.authors}<br />
+              <i>{pub.conference}</i><br />
+              {pub.note && <span style={{ color: 'red' }}>{pub.note}</span>} {/* Add this line to display the 'note' */}<br />
+              { pub.bibtex && <button className="btn" onClick={() => downloadBibtex(`${pub.title}.bib`, pub.bibtex)}>
+                <FontAwesomeIcon icon={faDownload} /> BibTeX
+              </button> }
+              {pub.arxiv && (
+                <a href={pub.arxiv} target="_blank" rel="noopener noreferrer">
+                  <button className="btn">
+                    <img src={arxivIcon} alt="arXiv" style={{ width: '1em', height: '1em', marginRight: '0.25em' }} /> arXiv
+                  </button>
+                </a>
+              )}
+              {pub.website && (
+                <a href={pub.website} target="_blank" rel="noopener noreferrer">
+                  <button className="btn"><FontAwesomeIcon icon={faLink} /> Website</button>
+                </a>
+              )}
+              {pub.code && (
+                <a href={pub.code} target="_blank" rel="noopener noreferrer">
+                  <button className="btn"><FontAwesomeIcon icon={faCode} /> Code</button>
+                </a>
+              )}
+              {pub.openreview && (
+                <a href={pub.openreview} target="_blank" rel="noopener noreferrer">
+                  <button className="btn"><FontAwesomeIcon icon={faFile} /> OpenReview</button>
+                </a>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+};
+
+const Publications: React.FC = () => {
+  return (
     <>
       <h1>Publications</h1>
-      <table>
-        <tbody>
-          {publications.map((pub, index) => (
-            <tr key={index} style={{ height: '150px' }}>
-              <td>
-                <b>{pub.title}</b><br />
-                {pub.authors}<br />
-                <i>{pub.conference}</i><br />
-                <button className="btn" onClick={() => downloadBibtex(`${pub.title}.bib`, pub.bibtex)}>
-                  <FontAwesomeIcon icon={faDownload} /> BibTeX
-                </button>
-                {pub.arxiv && (
-                  <a href={pub.arxiv} target="_blank" rel="noopener noreferrer">
-                    <button className="btn">
-                      <img src={arxivIcon} alt="arXiv" style={{ width: '1em', height: '1em', marginRight: '0.25em' }} /> arXiv
-                    </button>
-                  </a>
-                )}
-                {pub.website && (
-                  <a href={pub.website} target="_blank" rel="noopener noreferrer">
-                    <button className="btn"><FontAwesomeIcon icon={faLink} /> Website</button>
-                  </a>
-                )}
-                {pub.code && (
-                  <a href={pub.code} target="_blank" rel="noopener noreferrer">
-                    <button className="btn"><FontAwesomeIcon icon={faCode} /> Code</button>
-                  </a>
-                )}
-                
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <h2>2024</h2>
+      {renderPublications(publications2024)}
+      <h2>2023</h2>
+      {renderPublications(publications2023)}
+      <h2>2022</h2>
+      {renderPublications(publications2022)}
+      <h2>2021</h2>
+      {renderPublications(publications2021)}
+      <h2>2020</h2>
+      {renderPublications(publications2020)}
+      <h2>Pre-2020</h2>
+      {renderPublications(publicationsPre2020)}
     </>
   );
 };

@@ -1,22 +1,58 @@
+/* Research.css */
+.research-page {
+  margin: 20px;
+}
 
-/* Add some spacing and styling to the headings and paragraphs */
-h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  h2 {
-    font-size: 1.75rem;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 1.2rem;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-  
+.research-header {
+  margin-bottom: 20px;
+}
+
+.research-content {
+  margin-bottom: 40px;
+}
+
+.research-bubble {
+  display: table;
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.research-bubble tr {
+  display: table-cell;
+  width: 33%;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.research-bubble tr:hover {
+  background-color: rgba(112, 173, 71, 0.12);
+}
+
+.research-bubble tr td {
+  display: block;
+}
+
+.research-bubble tr td.rb-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.research-bubble tr td.rb-img img {
+  height: 100%;
+  object-fit: cover;
+  padding-bottom: 0;
+}
+
+.research-bubble tr td.rb-text {
+  display: block;
+  height: 5vh;
+  padding-top: 0;
+  padding-bottom: 1vh;
+  line-height: 1;
+}
