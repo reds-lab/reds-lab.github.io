@@ -2,8 +2,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Research.css';
-import dataCentric from "../../public/data_centric.gif"
-import ssaImage from "../../public/safetysecurityalignment.gif"
+import dataCentric from "/data_centric.gif"
+import ssaImage from "/safetysecurityalignment.gif"
 import privacyImage from "../assets/content/Research/privacy.webp"
 
 const Research: React.FC = () => {
