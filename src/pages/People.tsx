@@ -22,7 +22,7 @@ const People: React.FC = () => {
                   <div className="person-header">
                     <h3>
                       {person.name}
-                      {person.coAdvised && <span className="co-advised">{person.coAdvised}</span>}
+                      {/* {person.coAdvised && <span className="co-advised">{person.coAdvised}</span>} */}
                     </h3>
                     <div className="person-links">
                       {person.links.website && (

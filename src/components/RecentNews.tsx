@@ -1,26 +1,25 @@
-// RecentNews.tsx
+// components/RecentNews.tsx
 import React from 'react';
-import '../styles/RecentNews.css';
+// src/types/NewsItem.ts
 
-const RecentNews: React.FC = () => {
+export interface NewsItem {
+  date: string;
+  content: string;
+}
+
+interface RecentNewsProps {
+  news: NewsItem[];
+}
+
+const RecentNews: React.FC<RecentNewsProps> = ({ news }) => {
   return (
-    <section className="recent-news">
-      <div className="container">
-        <h2>Recent News</h2>
-        <ul>
-          <li>
-            <span>Sep 21, 2023:</span> Our 4 papers got accepted to the Conference on Neural Information Processing Systems (NeurIPS) 2023:
-            <ul>
-              <li>Parallel Sampling of Diffusion Models (Spotlight)</li>
-              <li>Diverse Conventions for Human-AI Collaboration</li>
-              <li>Data Quality in Imitation Learning</li>
-              <li>Inverse Preference Learning: Preference-based RL without a Reward Function</li>
-            </ul>
-          </li>
-          {/* Add more news items */}
-        </ul>
-      </div>
-    </section>
+    <ul className="recent-news-list">
+      {news.map((item, index) => (
+        <li key={index}>
+          <strong>{item.date}:</strong> {item.content}
+        </li>
+      ))}
+    </ul>
   );
 };
 

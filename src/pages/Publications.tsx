@@ -23,7 +23,7 @@ interface Publication {
   openreview?: string;
 }
 
-const renderPublications = (publications: Publication[]) => {
+export const renderPublications = (publications: Publication[]) => {
   const downloadBibtex = (filename: string, content: string) => {
     const element = document.createElement('a');
     const file = new Blob([content], { type: 'text/plain' });

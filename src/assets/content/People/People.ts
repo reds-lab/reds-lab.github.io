@@ -7,6 +7,7 @@ import feiyangKangImage from "./profile/feiyang kang.png";
 import mahavirDabasImage from "./profile/mahavir dabas.png";
 import adamNguyenImage from "./profile/adam nguyen.png";
 import minzhouPanImage from "./profile/minzhou pan.png";
+// import tranHuynhImage from "./profile/tran huynh.png";
 
 export const peopleData = [
   {
@@ -15,7 +16,7 @@ export const peopleData = [
       {
         profileImage: ruoxiJiaImage,
         name: "Ruoxi Jia",
-        details: "Ruoxi Jia is an Assistant Professor in the Electrical and Computer Engineering Department. Her work is focused on the design of algorithms for AI agents and autonomous systems that safely and reliably interact with other intelligent agents including humans.",
+        details: "Ruoxi is an Assistant Professor in the Electrical and Computer Engineering Department. Her work focuses on designing data and learning techniques to make AI systems more efficient and reliable. The applications span from natural language processing, computer vision, recommendation systems, to critical societal infrastructure.",
         links: {
           website: "https://ruoxijia.com",
           github: "https://github.com/ruoxijia",
@@ -36,7 +37,7 @@ export const peopleData = [
       {
         profileImage: yiZengImage,
         name: "Yi Zeng",
-        details: "Yi is a PhD student in the Electrical and Computer Engineering department. He is broadly interested in enabling robots to perceive and reason about dynamic real world environments.",
+        details: "Yi's research focuses on ensuring AI benefits humanity through advancements in AI safety, AI security, and responsible AI.",
         links: {
           website: "https://yizeng.com",
           github: "https://github.com/yizeng",
@@ -48,7 +49,7 @@ export const peopleData = [
       {
         profileImage: siChenImage,
         name: "Si Chen",
-        details: "Si is a PhD student in the Electrical and Computer Engineering department. Her research interests include machine learning and computer vision.",
+        details: "Si's research focuses on enhancing trustworthiness and privacy of AI by developing defenses against, and analyzing attacks on, AI models.",
         links: {
           website: "https://sichen.com",
           github: "https://github.com/sichen",
@@ -60,8 +61,7 @@ export const peopleData = [
       {
         profileImage: myeongseobKoImage,
         name: "Myeongseob Ko",
-        details: "Myeongseob is a PhD student in the Electrical and Computer Engineering Department. His work is focused on the intersection of human-robot-interaction and natural language processing.",
-        coAdvised: "",
+        details: "Myeongseob's research focuses on broad machine learning problems, with a particular emphasis on privacy and a data-centric perspective, aiming ultimately to develop AI systems that interact more effectively and beneficially with humanity.",
         links: {
           website: "https://myeonseob.com",
           github: "https://github.com/myeonseob",
@@ -72,8 +72,8 @@ export const peopleData = [
       },
       {
         profileImage: hoangJustImage,
-        name: "Hoang Just",
-        details: "Hoang is a PhD student in the Electrical and Computer Engineering department. His research focuses on developing robust and efficient algorithms for autonomous systems.",
+        name: "Hoang Anh Just",
+        details: "Hoang's research focuses on data-centric AI, especially on the importance of quality of data on the model's reasoning and understanding.",
         links: {
           website: "https://hoangjust.com",
           github: "https://github.com/hoangjust",
@@ -85,13 +85,21 @@ export const peopleData = [
       {
         profileImage: feiyangKangImage,
         name: "Feiyang Kang",
-        details: "Feiyang is a PhD student in the Electrical and Computer Engineering department. His research focuses on advanced machine learning techniques for robotics and autonomous systems.",
+        details: "Feiyang's research interests lie in data problems (data valuation, data selection/curation, scaling laws, data influence, Optimal Transport), attribution, interpretability, etc. with applications in LLMs/foundation models, vision applications, and multimodal models.",
         links: {
           website: "https://feiyangkang.com",
           github: "https://github.com/feiyangkang",
           googleScholar: "https://scholar.google.com/citations?user=fei789",
           linkedin: "https://www.linkedin.com/in/feiyang-kang",
           twitter: "https://twitter.com/feiyangkang"
+        }
+      },
+      {
+        profileImage: "",
+        name: "Tran Huynh",
+        details: "Tran's research focuses on understanding the vulnerabilities of AI models and advancing the robustness of AI systems against adversarial threats.",
+        links: {
+          // Add Tran's links here when available
         }
       }
     ]
@@ -102,7 +110,7 @@ export const peopleData = [
       {
         profileImage: mahavirDabasImage,
         name: "Mahavir Dabas",
-        details: "Mahavir is an MS student in the Electrical and Computer Engineering department. His work focuses on developing intelligent systems for robotics applications.",
+        details: "Mahavir's research focuses on Large Language Models, Reinforcement Learning, Cognitive Modeling and AI safety.",
         links: {
           website: "https://mahavirdabas.com",
           github: "https://github.com/mahavirdabas",
@@ -136,13 +144,27 @@ export const peopleData = [
       {
         profileImage: minzhouPanImage,
         name: "Minzhou Pan",
-        details: "Minzhou was a PhD student in the Electrical and Computer Engineering department. They worked on developing advanced algorithms for autonomous systems.",
+        details: "Undergraduate student, 2021-2022. (Next: PhD student at Northeastern University)",
         links: {
           website: "https://minzhoupan.com",
           github: "https://github.com/minzhoupan",
           googleScholar: "https://scholar.google.com/citations?user=min567",
           linkedin: "https://www.linkedin.com/in/minzhou-pan",
           twitter: "https://twitter.com/minzhoupan"
+        }
+      },
+      {
+        name: "Himanshu Jahagirdar",
+        details: "MS student, 2022-2023. (Next: Data scientist at the Washington Post)",
+        links: {
+          // Add Himanshu's links here if available
+        }
+      },
+      {
+        name: "Nikhil Abhyankar",
+        details: "MS student, 2022-2023. (Next: PhD student at Virginia Tech)",
+        links: {
+          // Add Nikhil's links here if available
         }
       }
     ]
