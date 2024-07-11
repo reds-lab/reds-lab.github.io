@@ -26,7 +26,7 @@ const Research: React.FC = () => {
               </Link>
             </td>
             <td className="rb-text">
-              <Link to="/research/data-centric-ai">Data-Centric AI</Link>
+              <Link to="/research/data-centric-ai">Better Data, Better Models</Link>
             </td>
           </tr>
           <tr>
@@ -46,7 +46,7 @@ const Research: React.FC = () => {
               </Link>
             </td>
             <td className="rb-text">
-              <Link to="/research/privacy">Privacy</Link>
+              <Link to="/research/privacy">Privacy Risk Assessment</Link>
             </td>
           </tr>
         </table>
