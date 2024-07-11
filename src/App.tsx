@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import People from './pages/People'
 import Publications from './pages/Publications'
-import Research from './pages/Research'
+import Research from './pages/Research.jsx'
 import DataCentricAI from "./pages/DataCentricAI"
 import SafetySecurityAlignment from "./pages/SafetySecurityAlignment"
 import Privacy from './pages/Privacy'
