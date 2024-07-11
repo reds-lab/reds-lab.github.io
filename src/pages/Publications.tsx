@@ -15,7 +15,7 @@ interface Publication {
   title: string;
   authors: string;
   conference: string;
-  bibtex?: string;
+  bibtex?: any;
   arxiv?: string;
   website?: string;
   code?: string;
