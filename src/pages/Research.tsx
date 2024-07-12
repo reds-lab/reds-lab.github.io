@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Research.css';
-import dataCentric from "../assets/content/Research/data_centric.gif"
+import dataCentric from "../assets/content/Research/datacentric.gif"
 import ssaImage from  "../assets/content/Research/safetysecurityalignment.gif"
 import privacyImage from "../assets/content/Research/privacy.webp"
 
