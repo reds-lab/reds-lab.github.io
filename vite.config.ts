@@ -8,6 +8,5 @@ export default defineConfig({
       '@': '/src'
     }
   },
-  assetsInclude: ['**/*.gif', '**/*.webp'],
-  base: '/reds-lab.github.io/',
+  assetsInclude: ['**/*.gif', '**/*.webp']
 });
