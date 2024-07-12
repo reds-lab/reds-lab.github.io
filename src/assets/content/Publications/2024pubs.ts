@@ -70,12 +70,15 @@ const publications = [
       highlights: []
     },
     {
-      title: "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
-      authors: "Xiangyu Qi*, Yi Zeng*, Tinghao Xie*, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson",
-      conference: "International Conference on Learning Representations (ICLR), 2024",
-      openreview: "https://openreview.net/forum?id=hTEGyKf0dZ&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)",
-      highlights: ["Oral presentation", "Featured in the New York Times"]
-    }
+        title: "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
+        authors: "Xiangyu Qi*, Yi Zeng*, Tinghao Xie*, Pin-Yu Chen, Ruoxi Jia, Prateek Mittal, Peter Henderson",
+        conference: "International Conference on Learning Representations (ICLR), 2024",
+        openreview: "https://openreview.net/forum?id=hTEGyKf0dZ&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)",
+        highlights: [
+          "Oral presentation",
+          "Featured in the <a href=\"https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html\">New York Times</a>"
+        ]
+      }
     ];
     
     export default publications;
