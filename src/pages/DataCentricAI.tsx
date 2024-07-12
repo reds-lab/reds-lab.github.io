@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import '../styles/Research.css';  // Assuming you have this CSS file
 import { renderPublications } from './Publications';
 import { dataAttributionAndInfluence, dataSelection, activeLearning } from '../assets/content/Research/data-centric'
-import dataCentric from "../assets/content/Research/datacentric.gif"
-import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
+
+const dataCentric  = "https://res.cloudinary.com/dqjycckyb/image/upload/v1720823146/ce7c6klrf5jbd7g6x2df.gif";
+const ssaImage =  "https://res.cloudinary.com/dqjycckyb/image/upload/v1720823146/ejxmicj4nhlgzz7dz4sq.gif";
 import privacyImage from "../assets/content/Research/privacy.webp"
 
 
