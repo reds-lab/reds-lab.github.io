@@ -21,6 +21,7 @@ interface Publication {
   code?: string;
   note?: string;
   openreview?: string;
+  highlights?: string[];
 }
 
 export const renderPublications = (publications: Publication[]) => {
@@ -43,10 +44,21 @@ export const renderPublications = (publications: Publication[]) => {
               <b>{pub.title}</b><br />
               {pub.authors}<br />
               <i>{pub.conference}</i><br />
-              {pub.note && <span style={{ color: 'red' }}>{pub.note}</span>} {/* Add this line to display the 'note' */}<br />
-              { pub.bibtex && <button className="btn" onClick={() => downloadBibtex(`${pub.title}.bib`, pub.bibtex)}>
-                <FontAwesomeIcon icon={faDownload} /> BibTeX
-              </button> }
+              {pub.note && <span style={{ color: 'red' }}>{pub.note}</span>}<br />
+              {pub.highlights && pub.highlights.length > 0 && (
+                <ul style={{ margin: '0px', paddingLeft: '0px', listStyleType: 'none' }}>
+                  {pub.highlights.map((highlight, hIndex) => (
+                    <li key={hIndex} style={{ color: 'red', fontWeight: 'bold' }}>
+                     {highlight}
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {pub.bibtex && (
+                <button className="btn" onClick={() => downloadBibtex(`${pub.title}.bib`, pub.bibtex)}>
+                  <FontAwesomeIcon icon={faDownload} /> BibTeX
+                </button>
+              )}
               {pub.arxiv && (
                 <a href={pub.arxiv} target="_blank" rel="noopener noreferrer">
                   <button className="btn">

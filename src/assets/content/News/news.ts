@@ -6,7 +6,7 @@ interface NewsItem {
 const recentNews: NewsItem[] = [
   {
     date: "July 2024",
-    content: "We are organizing the Trustworthy Interactive Decision-Making with Foundation Models Workshop at IJCAI 2024. It will be on August 3. Check out more details [here](https://sites.google.com/view/ijcai24-tfm)!"
+    content: "We are organizing the Trustworthy Interactive Decision-Making with Foundation Models Workshop at IJCAI 2024. It will be on August 3. Check out more details <a href='https://sites.google.com/view/ijcai24-tfm' target='_blank' rel='noopener noreferrer'>here</a>!"
   },
   {
     date: "May 2024",
@@ -22,7 +22,7 @@ const recentNews: NewsItem[] = [
   },
   {
     date: "May 2024",
-    content: "We are organizing the Workshop on Navigating and Addressing Data Problems for Foundation Models at ICLR 2024. Check out more details [here](https://sites.google.com/view/dpfm-iclr24/home?authuser=0)!"
+    content: "We are organizing the Workshop on Navigating and Addressing Data Problems for Foundation Models at ICLR 2024. Check out more details <a href='https://sites.google.com/view/dpfm-iclr24/home?authuser=0' target='_blank' rel='noopener noreferrer'>here</a>!"
   },
   {
     date: "Apr 2024",
@@ -42,11 +42,11 @@ const recentNews: NewsItem[] = [
   },
   {
     date: "Dec 2023",
-    content: "We are organizing the tutorial on Data Contribution Estimation for Machine Learning at NeurIPS, 2023! Check out the live stream and more details [here](https://nips.cc/virtual/2023/tutorial/73959)."
+    content: "We are organizing the tutorial on Data Contribution Estimation for Machine Learning at NeurIPS, 2023! Check out the live stream and more details <a href='https://nips.cc/virtual/2023/tutorial/73959' target='_blank' rel='noopener noreferrer'>here</a>."
   },
   {
     date: "Oct 2023",
-    content: "The New York Times compiled a story about our work 'Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!' Check it out [here](https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html)!"
+    content: "The New York Times compiled a story about our work 'Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!' Check it out <a href='https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html' target='_blank' rel='noopener noreferrer'>here</a>!"
   },
   {
     date: "Feb 2023",

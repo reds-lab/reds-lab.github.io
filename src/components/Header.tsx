@@ -58,7 +58,6 @@ function Header() {
             <li><Link to="/research" onClick={isMobile ? toggleMenu : undefined}>Research</Link></li>
             <li><Link to="/publications" onClick={isMobile ? toggleMenu : undefined}>Publications</Link></li>
             <li><Link to="/contact" onClick={isMobile ? toggleMenu : undefined}>Contact</Link></li>
-            <li><Link to="/photos" onClick={isMobile ? toggleMenu : undefined}>Photos</Link></li>
             <div className="header-icons">
               <a href="https://github.com/reds-lab" target="_blank" rel="noopener noreferrer" className="github-link">
                 <FaGithub size={24} />
