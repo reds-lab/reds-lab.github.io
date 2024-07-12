@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Research.css';  // Assuming you have this CSS file
 import { renderPublications } from './Publications';
 import { dataAttributionAndInfluence, dataSelection, activeLearning } from '../assets/content/Research/data-centric'
-import dataCentric from "../assets/content/Research/data_centric.gif"
+import dataCentric from "../assets/content/Research/datacentric.gif"
 import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
 import privacyImage from "../assets/content/Research/privacy.webp"
 

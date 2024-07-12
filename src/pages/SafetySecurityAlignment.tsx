@@ -4,7 +4,7 @@ import '../styles/Research.css';  // Assuming you have this CSS file
 import { renderPublications } from './Publications';
 import { vulnerabilityAssessment, robustness, alignment } from '../assets/content/Research/safetysecurityalignment.ts'
 
-import dataCentric from "../assets/content/Research/data_centric.gif"
+import dataCentric from "../assets/content/Research/datacentric.gif"
 import ssaImage from "../assets/content/Research/safetysecurityalignment.gif"
 import privacyImage from "../assets/content/Research/privacy.webp"
 const SafetySecurityAlignment: React.FC = () => {
