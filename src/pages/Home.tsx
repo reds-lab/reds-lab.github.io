@@ -15,7 +15,7 @@ function Home() {
     <main>
       <Hero />
       <p>
-        The ReDS (Responsible Data Science) lab conducts research on safe and reliable AI systems and improved data economies. Focusing on machine learning, security, privacy, and game theory, they address challenges in data markets, AI robustness, and data protection. The lab aims to advance AI responsibly, impacting data democratization and economic equality through research in data economics, adversarial machine learning, and data privacy.
+      Welcome to the ReDS (Responsible Data Science) lab website! Our mission is to develop theoretical foundations and practical algorithms for responsible AI. Our group focuses on establishing a formal understanding of data's impact on machine learning outcomes and co-designing data and learning algorithms to build <strong>efficient, safe, human-aligned</strong> AI systems.
       </p>
       <section>
         <h2>Recent News</h2>

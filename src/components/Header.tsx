@@ -63,7 +63,7 @@ function Header() {
               <a href="https://github.com/reds-lab" target="_blank" rel="noopener noreferrer" className="github-link">
                 <FaGithub size={24} />
               </a>
-              <a href="https://twitter.com/reds-lab" target="_blank" rel="noopener noreferrer" className="twitter-link">
+              <a href="https://x.com/ruoxijia" target="_blank" rel="noopener noreferrer" className="twitter-link">
                 <FaTwitter size={24} />
               </a>
             </div>

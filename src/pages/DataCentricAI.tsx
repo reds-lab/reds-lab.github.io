@@ -86,7 +86,7 @@ const DataCentricAI: React.FC = () => {
 
         <h3>NeurIPS 2023 Tutorial</h3>
         <p>
-          A tutorial I gave at NeurIPS 2023: <a href="https://slideslive.com/39013503?time=1380" target="_blank" rel="noopener noreferrer">
+        Presentations and Resources: Tutorial on "<strong>Data Contribution Estimation for Machine Learning</strong>” Ruoxi gave at NeurIPS 2023: <a href="https://slideslive.com/39013503?time=1380" target="_blank" rel="noopener noreferrer">
           Link</a> (starting from 23:00)
         </p>
         <h2>Selected Publications</h2>
