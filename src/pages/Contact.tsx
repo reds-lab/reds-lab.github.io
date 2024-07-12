@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
       <section className="contact-section">
         <h2>Prospective Ph.D. Students</h2>
         <p>Thank you for your interest in our research group! To ensure your application gets the attention it deserves, please email me your CV at <strong>{emailAddress}</strong> and apply to the <strong>Electrical and Computer Engineering (ECE) Department</strong>.</p>
-        <p><strong>Admission Process:</strong> Please follow the application procedure <a href="https://ece.vt.edu/grad/prospective.html" target="_blank" rel="noopener noreferrer">here</a>. Please ensure you:</p>
+        <p><strong>Admission Process:</strong> Please follow the application procedure <a href="https://ece.vt.edu/grad.html" target="_blank" rel="noopener noreferrer">here</a>. Please ensure you:</p>
         <ol>
           <li>Select the sub-area "Machine Intelligence."</li>
           <li>Choose the program "Computer Engineering (CpE)."</li>

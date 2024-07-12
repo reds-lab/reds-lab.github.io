@@ -78,7 +78,7 @@ const publications = [
           "Oral presentation",
           "Featured in the <a href=\"https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html\">New York Times</a>"
         ]
-      }
+    }
     ];
     
     export default publications;
