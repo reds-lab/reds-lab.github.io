@@ -13,7 +13,7 @@ const vulnerabilityAssessment = [
     openreview: "https://openreview.net/forum?id=hTEGyKf0dZ&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)",
     highlights: [
       "Oral presentation",
-      "Featured in the New York Times"
+      "Featured in the <a href=\"https://www.nytimes.com/2023/10/19/technology/guardrails-artificial-intelligence-open-source.html\">New York Times</a>"
     ]
   },
   {

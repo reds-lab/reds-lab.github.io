@@ -41,6 +41,6 @@ const publications = [
       arxiv: "https://arxiv.org/abs/2110.03735",
       highlights: []
     }
-    ];
+];
     
     export default publications;

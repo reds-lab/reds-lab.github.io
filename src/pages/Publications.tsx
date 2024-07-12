@@ -19,7 +19,6 @@ interface Publication {
   arxiv?: string;
   website?: string;
   code?: string;
-  note?: string;
   openreview?: string;
   highlights?: string[];
 }
@@ -44,13 +43,14 @@ export const renderPublications = (publications: Publication[]) => {
               <b>{pub.title}</b><br />
               {pub.authors}<br />
               <i>{pub.conference}</i><br />
-              {pub.note && <span style={{ color: 'red' }}>{pub.note}</span>}<br />
               {pub.highlights && pub.highlights.length > 0 && (
                 <ul style={{ margin: '0px', paddingLeft: '0px', listStyleType: 'none' }}>
                   {pub.highlights.map((highlight, hIndex) => (
-                    <li key={hIndex} style={{ color: 'red', fontWeight: 'bold' }}>
-                     {highlight}
-                    </li>
+                    <li 
+                      key={hIndex} 
+                      style={{ color: 'red', fontWeight: 'bold' }}
+                      dangerouslySetInnerHTML={{ __html: highlight }}
+                    />
                   ))}
                 </ul>
               )}

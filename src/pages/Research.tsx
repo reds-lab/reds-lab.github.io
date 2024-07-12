@@ -7,9 +7,6 @@ const ssaImage =  "https://res.cloudinary.com/dqjycckyb/image/upload/v1720823146
 import privacyImage from "../assets/content/Research/privacy.webp"
 
 const Research: React.FC = () => {
-  console.log('Data-Centric Image Path:', dataCentric);
-  console.log('Safety Security Alignment Image Path:', ssaImage);
-  console.log('Privacy Image Path:', privacyImage);
 
   return (
     <div className="research-page">
@@ -24,7 +21,6 @@ const Research: React.FC = () => {
           To realize this vision, we conduct interdisciplinary research that integrates insights from machine learning,
           game theory, optimization, statistics, and social science.
         </p>
-
         <table className="research-bubble">
           <tbody>
             <tr>
