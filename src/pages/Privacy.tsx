@@ -1,12 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/Research.css';  // Assuming you have this CSS file
 import { renderPublications } from './Publications.tsx';
 import { privacyRiskAssessment, privacyPreservingLearning } from '../assets/content/Research/privacy.ts';
-
-const dataCentric  = "https://res.cloudinary.com/dqjycckyb/image/upload/v1720823146/ce7c6klrf5jbd7g6x2df.gif";
-const ssaImage =  "https://res.cloudinary.com/dqjycckyb/image/upload/v1720823146/ejxmicj4nhlgzz7dz4sq.gif";
-import privacyImage from "../assets/content/Research/privacy.webp"
+import ResearchLinks from '../components/ResearchLinks.tsx';
 
 const Privacy: React.FC = () => {
   return (
@@ -15,32 +11,7 @@ const Privacy: React.FC = () => {
         <h1 className="h2">Privacy</h1>
       </header>
       <article className="research-content">
-      <table className="research-bubble">
-          <tr>
-            <td className="rb-img">
-              <img src={dataCentric} alt="Data-Centric AI" />
-            </td>
-            <td className="rb-text">
-              <Link to="/research/data-centric-ai">Better Data, Better Models</Link>
-            </td>
-          </tr>
-          <tr>
-            <td className="rb-img">
-              <img src={ssaImage} alt="Safety, Security, and Alignment" />
-            </td>
-            <td className="rb-text">
-              <Link to="/research/safety-security-alignment">Safety, Security, and Alignment</Link>
-            </td>
-          </tr>
-          <tr>
-            <td className="rb-img">
-              <img src={privacyImage} alt="Privacy" />
-            </td>
-            <td className="rb-text">
-              <Link to="/research/privacy">Privacy Risk Assessment</Link>
-            </td>
-          </tr>
-        </table>
+      <ResearchLinks/>
 
         <p>
           The proliferation of machine learning and data analytics has revolutionized our ability to extract 

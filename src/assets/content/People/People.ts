@@ -27,10 +27,10 @@ export const peopleData = [
       }
     ]
   },
-  {
-    title: "Postdocs and Visiting Scholars",
-    people: []
-  },
+  // {
+  //   title: "Postdocs and Visiting Scholars",
+  //   people: []
+  // },
   {
     title: "PhD Students",
     people: [
