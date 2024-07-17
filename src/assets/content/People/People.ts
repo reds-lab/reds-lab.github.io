@@ -8,7 +8,7 @@ import mahavirDabasImage from "./profile/mahavir dabas.png";
 import adamNguyenImage from "./profile/adam nguyen.png";
 import minzhouPanImage from "./profile/minzhou pan.png";
 import tranHuynhImage from "./profile/tran huynh.png";
-
+import himanshuJahagirdaranImage from "./profile/himanshu jahagirdaran.png";
 export const peopleData = [
   {
     title: "Faculty Members",
@@ -154,6 +154,7 @@ export const peopleData = [
         }
       },
       {
+        profileImage: himanshuJahagirdaranImage,
         name: "Himanshu Jahagirdar",
         details: "MS student, 2022-2023. (Next: Data scientist at the Washington Post)",
         links: {
