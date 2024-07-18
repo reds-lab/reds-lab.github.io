@@ -9,6 +9,8 @@ import adamNguyenImage from "./profile/adam nguyen.png";
 import minzhouPanImage from "./profile/minzhou pan.png";
 import tranHuynhImage from "./profile/tran huynh.png";
 import himanshuJahagirdaranImage from "./profile/himanshu jahagirdaran.png";
+import nikhilAbhyankarImage from "./profile/nikhil abhyankar.png";
+
 export const peopleData = [
   {
     title: "Faculty Members",
@@ -162,10 +164,12 @@ export const peopleData = [
         }
       },
       {
+        profileImage: nikhilAbhyankarImage,
         name: "Nikhil Abhyankar",
         details: "MS student, 2022-2023. (Next: PhD student at Virginia Tech)",
         links: {
-          // Add Nikhil's links here if available
+          website: "https://nikhilsab.github.io/",
+          linkedin: "https://www.linkedin.com/in/nikhil-abhyankar/",
         }
       }
     ]
