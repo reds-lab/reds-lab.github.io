@@ -20,6 +20,11 @@ export const peopleData = [
         name: "Ruoxi Jia",
         details: "Ruoxi is an Assistant Professor in the Electrical and Computer Engineering Department. Her work focuses on designing data and learning techniques to make AI systems more efficient and reliable. The applications span from natural language processing, computer vision, recommendation systems, to critical societal infrastructure.",
         links: {
+          // website: "https://ruoxijia.com",
+          // github: "https://github.com/ruoxijia",
+          // googleScholar: "https://scholar.google.com/citations?user=abc123",
+          // linkedin: "https://www.linkedin.com/in/ruoxi-jia",
+          // twitter: "https://twitter.com/ruoxijia"
         }
       }
     ]
