@@ -51,6 +51,17 @@ export const peopleData: PeopleGroup[] = [
     ]
   },
   {
+    title: "Visiting Scholar",
+    people: [{
+      profileImage: jiachenWangImage,
+      name: "Jiachen T. Wang",
+      details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
+      links: {
+        website: "https://tianhaowang.netlify.app/"
+      }
+    }]
+    },
+  {
     title: "PhD Students",
     people: [
       {
@@ -109,14 +120,7 @@ export const peopleData: PeopleGroup[] = [
         details: "Tran's research focuses on understanding the vulnerabilities of AI models and advancing the robustness of AI systems against adversarial threats.",
         links: {}
       },
-      {
-        profileImage: jiachenWangImage,
-        name: "Jiachen (Tianhao) Wang",
-        details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
-        links: {
-          website: "https://tianhaowang.netlify.app/"
-        }
-      }
+      
     ]
   },
   {
