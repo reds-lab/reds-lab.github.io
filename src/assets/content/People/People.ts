@@ -50,17 +50,7 @@ export const peopleData: PeopleGroup[] = [
       }
     ]
   },
-  {
-    title: "Visiting Scholar",
-    people: [{
-      profileImage: jiachenWangImage,
-      name: "Jiachen T. Wang",
-      details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
-      links: {
-        website: "https://tianhaowang.netlify.app/"
-      }
-    }]
-    },
+  
   {
     title: "PhD Students",
     people: [
@@ -69,11 +59,11 @@ export const peopleData: PeopleGroup[] = [
         name: "Yi Zeng",
         details: "Yi's research focuses on ensuring AI benefits humanity through advancements in AI safety, AI security, and responsible AI.",
         links: {
-          website: "https://yizeng.com",
-          github: "https://github.com/yizeng",
-          googleScholar: "https://scholar.google.com/citations?user=jkl012",
-          linkedin: "https://www.linkedin.com/in/yi-zeng",
-          twitter: "https://twitter.com/yizeng"
+          // website: "https://yizeng.com",
+          // github: "https://github.com/yizeng",
+          // googleScholar: "https://scholar.google.com/citations?user=jkl012",
+          // linkedin: "https://www.linkedin.com/in/yi-zeng",
+          // twitter: "https://twitter.com/yizeng"
         }
       },
       {
@@ -174,5 +164,16 @@ export const peopleData: PeopleGroup[] = [
         }
       }
     ]
-  }
+  },
+  {
+    title: "Visiting Scholar",
+    people: [{
+      profileImage: jiachenWangImage,
+      name: "Jiachen T. Wang",
+      details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
+      links: {
+        website: "https://tianhaowang.netlify.app/"
+      }
+    }]
+    },
 ];
