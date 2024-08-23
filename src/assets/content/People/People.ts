@@ -20,19 +20,14 @@ export const peopleData = [
         name: "Ruoxi Jia",
         details: "Ruoxi is an Assistant Professor in the Electrical and Computer Engineering Department. Her work focuses on designing data and learning techniques to make AI systems more efficient and reliable. The applications span from natural language processing, computer vision, recommendation systems, to critical societal infrastructure.",
         links: {
-          website: "https://ruoxijia.com",
-          github: "https://github.com/ruoxijia",
-          googleScholar: "https://scholar.google.com/citations?user=abc123",
-          linkedin: "https://www.linkedin.com/in/ruoxi-jia",
-          twitter: "https://twitter.com/ruoxijia"
         }
       }
     ]
   },
-  // {
-  //   title: "Postdocs and Visiting Scholars",
-  //   people: []
-  // },
+  {
+    title: "Post Docs/Visiting Scholars",
+    people: [],
+  },
   {
     title: "PhD Students",
     people: [
@@ -41,11 +36,6 @@ export const peopleData = [
         name: "Yi Zeng",
         details: "Yi's research focuses on ensuring AI benefits humanity through advancements in AI safety, AI security, and responsible AI.",
         links: {
-          website: "https://yizeng.com",
-          github: "https://github.com/yizeng",
-          googleScholar: "https://scholar.google.com/citations?user=jkl012",
-          linkedin: "https://www.linkedin.com/in/yi-zeng",
-          twitter: "https://twitter.com/yizeng"
         }
       },
       {
@@ -53,11 +43,9 @@ export const peopleData = [
         name: "Si Chen",
         details: "Si's research focuses on enhancing trustworthiness and privacy of AI by developing defenses against, and analyzing attacks on, AI models.",
         links: {
-          website: "https://sichen.com",
-          github: "https://github.com/sichen",
-          googleScholar: "https://scholar.google.com/citations?user=pqr678",
-          linkedin: "https://www.linkedin.com/in/si-chen",
-          twitter: "https://twitter.com/sichen"
+          website: "https://sichen21.netlify.app/",
+          linkedin: "https://www.linkedin.com/in/si-chen-1805001a1/",
+          twitter: "https://twitter.com/si_chen0921"
         }
       },
       {
@@ -65,11 +53,8 @@ export const peopleData = [
         name: "Myeongseob Ko",
         details: "Myeongseob's research focuses on broad machine learning problems, with a particular emphasis on privacy and a data-centric perspective, aiming ultimately to develop AI systems that interact more effectively and beneficially with humanity.",
         links: {
-          website: "https://myeonseob.com",
-          github: "https://github.com/myeonseob",
-          googleScholar: "https://scholar.google.com/citations?user=ghi789",
-          linkedin: "https://www.linkedin.com/in/myeonseob-ko",
-          twitter: "https://twitter.com/myeonseob"
+          linkedin: "https://www.linkedin.com/in/myeongseob-ko-a87325175/",
+          twitter: "https://twitter.com/KoMyeongseob"
         }
       },
       {
@@ -77,11 +62,9 @@ export const peopleData = [
         name: "Hoang Anh Just",
         details: "Hoang's research focuses on data-centric AI, especially on the importance of quality of data on the model's reasoning and understanding.",
         links: {
-          website: "https://hoangjust.com",
-          github: "https://github.com/hoangjust",
-          googleScholar: "https://scholar.google.com/citations?user=mno345",
-          linkedin: "https://www.linkedin.com/in/hoang-just",
-          twitter: "https://twitter.com/hoangjust"
+          website: "https://www.justhoanganh.com/",
+          linkedin: "https://www.linkedin.com/in/justhoanganh/",
+          twitter: "https://twitter.com/reds_tiger"
         }
       },
       {
@@ -89,20 +72,15 @@ export const peopleData = [
         name: "Feiyang Kang",
         details: "Feiyang's research interests lie in data problems (data valuation, data selection/curation, scaling laws, data influence, Optimal Transport), attribution, interpretability, etc. with applications in LLMs/foundation models, vision applications, and multimodal models.",
         links: {
-          website: "https://feiyangkang.com",
-          github: "https://github.com/feiyangkang",
-          googleScholar: "https://scholar.google.com/citations?user=fei789",
-          linkedin: "https://www.linkedin.com/in/feiyang-kang",
-          twitter: "https://twitter.com/feiyangkang"
+          linkedin: "https://www.linkedin.com/in/fykang/",
+          twitter: "https://twitter.com/feiyang_ml"
         }
       },
       {
         profileImage: tranHuynhImage,
         name: "Tran Huynh",
         details: "Tran's research focuses on understanding the vulnerabilities of AI models and advancing the robustness of AI systems against adversarial threats.",
-        links: {
-          // Add Tran's links here when available
-        }
+        links: {}
       }
     ]
   },
@@ -114,11 +92,9 @@ export const peopleData = [
         name: "Mahavir Dabas",
         details: "Mahavir's research focuses on Large Language Models, Reinforcement Learning, Cognitive Modeling and AI safety.",
         links: {
-          website: "https://mahavirdabas.com",
-          github: "https://github.com/mahavirdabas",
-          googleScholar: "https://scholar.google.com/citations?user=stu901",
-          linkedin: "https://www.linkedin.com/in/mahavir-dabas",
-          twitter: "https://twitter.com/mahavirdabas"
+          github: "https://github.com/MahavirDabas18",
+          googleScholar: "https://scholar.google.com/citations?hl=en&authuser=2&user=Av9MILkAAAAJ",
+          linkedin: "https://www.linkedin.com/in/mahavir-dabas-8b920a191/"
         }
       }
     ]
@@ -130,13 +106,7 @@ export const peopleData = [
         profileImage: adamNguyenImage,
         name: "Adam Nguyen",
         details: "Adam is an undergraduate student in the Computer Science department. He is interested in exploring the applications of AI in real-world scenarios.",
-        links: {
-          website: "https://adamnguyen.com",
-          github: "https://github.com/adamnguyen",
-          googleScholar: "https://scholar.google.com/citations?user=vwx234",
-          linkedin: "https://www.linkedin.com/in/adam-nguyen",
-          twitter: "https://twitter.com/adamnguyen"
-        }
+        links: {}
       }
     ]
   },
@@ -147,21 +117,13 @@ export const peopleData = [
         profileImage: minzhouPanImage,
         name: "Minzhou Pan",
         details: "Undergraduate student, 2021-2022. (Next: PhD student at Northeastern University)",
-        links: {
-          website: "https://minzhoupan.com",
-          github: "https://github.com/minzhoupan",
-          googleScholar: "https://scholar.google.com/citations?user=min567",
-          linkedin: "https://www.linkedin.com/in/minzhou-pan",
-          twitter: "https://twitter.com/minzhoupan"
-        }
+        links: {}
       },
       {
         profileImage: himanshuJahagirdaranImage,
         name: "Himanshu Jahagirdar",
         details: "MS student, 2022-2023. (Next: Data scientist at the Washington Post)",
-        links: {
-          // Add Himanshu's links here if available
-        }
+        links: {}
       },
       {
         profileImage: nikhilAbhyankarImage,
