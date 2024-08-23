@@ -12,7 +12,27 @@ import himanshuJahagirdaranImage from "./profile/himanshu jahagirdaran.png";
 import nikhilAbhyankarImage from "./profile/nikhil abhyankar.png";
 import jiachenWangImage from "./profile/jiachen wang.png";
 
-export const peopleData = [
+interface Links {
+  website?: string;
+  github?: string;
+  googleScholar?: string;
+  linkedin?: string;
+  twitter?: string;
+}
+
+interface Person {
+  profileImage: string;
+  name: string;
+  details: string;
+  links: Links;
+}
+
+interface PeopleGroup {
+  title: string;
+  people: Person[];
+}
+
+export const peopleData: PeopleGroup[] = [
   {
     title: "Faculty Members",
     people: [
@@ -21,27 +41,14 @@ export const peopleData = [
         name: "Ruoxi Jia",
         details: "Ruoxi is an Assistant Professor in the Electrical and Computer Engineering Department. Her work focuses on designing data and learning techniques to make AI systems more efficient and reliable. The applications span from natural language processing, computer vision, recommendation systems, to critical societal infrastructure.",
         links: {
-          // website: "https://ruoxijia.com",
-          // github: "https://github.com/ruoxijia",
-          // googleScholar: "https://scholar.google.com/citations?user=abc123",
-          // linkedin: "https://www.linkedin.com/in/ruoxi-jia",
-          // twitter: "https://twitter.com/ruoxijia"
+          website: "https://ruoxijia.com",
+          github: "https://github.com/ruoxijia",
+          googleScholar: "https://scholar.google.com/citations?user=abc123",
+          linkedin: "https://www.linkedin.com/in/ruoxi-jia",
+          twitter: "https://twitter.com/ruoxijia"
         }
       }
     ]
-  },
-  {
-    title: "Post Docs/Visiting Scholars",
-    people: [
-      {
-        profileImage: jiachenWangImage,
-        name: "Jiachen (Tianhao) Wang",
-        details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
-        links: {
-          website: "https://tianhaowang.netlify.app/"
-        }
-      }
-    ],
   },
   {
     title: "PhD Students",
@@ -51,6 +58,11 @@ export const peopleData = [
         name: "Yi Zeng",
         details: "Yi's research focuses on ensuring AI benefits humanity through advancements in AI safety, AI security, and responsible AI.",
         links: {
+          website: "https://yizeng.com",
+          github: "https://github.com/yizeng",
+          googleScholar: "https://scholar.google.com/citations?user=jkl012",
+          linkedin: "https://www.linkedin.com/in/yi-zeng",
+          twitter: "https://twitter.com/yizeng"
         }
       },
       {
@@ -96,6 +108,14 @@ export const peopleData = [
         name: "Tran Huynh",
         details: "Tran's research focuses on understanding the vulnerabilities of AI models and advancing the robustness of AI systems against adversarial threats.",
         links: {}
+      },
+      {
+        profileImage: jiachenWangImage,
+        name: "Jiachen (Tianhao) Wang",
+        details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
+        links: {
+          website: "https://tianhaowang.netlify.app/"
+        }
       }
     ]
   },
@@ -146,7 +166,7 @@ export const peopleData = [
         details: "MS student, 2022-2023. (Next: PhD student at Virginia Tech)",
         links: {
           website: "https://nikhilsab.github.io/",
-          linkedin: "https://www.linkedin.com/in/nikhil-abhyankar/",
+          linkedin: "https://www.linkedin.com/in/nikhil-abhyankar/"
         }
       }
     ]
