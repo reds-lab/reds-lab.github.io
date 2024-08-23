@@ -10,6 +10,7 @@ import minzhouPanImage from "./profile/minzhou pan.png";
 import tranHuynhImage from "./profile/tran huynh.png";
 import himanshuJahagirdaranImage from "./profile/himanshu jahagirdaran.png";
 import nikhilAbhyankarImage from "./profile/nikhil abhyankar.png";
+import jiachenWangImage from "./profile/jiachen wang.png";
 
 export const peopleData = [
   {
@@ -31,7 +32,16 @@ export const peopleData = [
   },
   {
     title: "Post Docs/Visiting Scholars",
-    people: [],
+    people: [
+      {
+        profileImage: jiachenWangImage,
+        name: "Jiachen (Tianhao) Wang",
+        details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
+        links: {
+          website: "https://tianhaowang.netlify.app/"
+        }
+      }
+    ],
   },
   {
     title: "PhD Students",
