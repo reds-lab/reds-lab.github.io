@@ -1,5 +1,50 @@
 const publications = [
     {
+      title: "Fairness-Aware Meta-Learning via Nash Bargaining",
+      authors: "Yi Zeng, Xuelin Yang, Li Chen, Cristian Canton Ferrer, Ming Jin, Michael Jordan, Ruoxi Jia",
+      conference: "Conference on Neural Information Processing Systems (NeurIPS), 2024",
+      arxiv: "https://arxiv.org/abs/2406.07029",
+      highlights: []
+    },
+    {
+      title: "Boosting Alignment for Post-Unlearning Text-to-Image Generative Models",
+      authors: "Myeongseob Ko, Henry Li, Zhun Wang, Jonathan Patsenker, Jiachen T. Wang, Qinbin Li, Ming Jin, Dawn Song, Ruoxi Jia",
+      conference: "Conference on Neural Information Processing Systems (NeurIPS), 2024",
+      arxiv: "",
+      highlights: []
+    },
+    {
+      title: "Compute-efficient LLM Training via Online Batch Selection",
+      authors: "Jiachen T. Wang, Tong Wu, Dawn Song, Prateek Mittal, Ruoxi Jia",
+      conference: "Conference on Neural Information Processing Systems (NeurIPS), 2024",
+      arxiv: "",
+      highlights: ["Spotlight presentation"]
+    },
+    {
+      title: "BEEAR: Embedding-based Adversarial Removal of Safety Backdoors in Instruction-tuned Language Models",
+      authors: "Yi Zeng, Weiyu Sun, Tran Ngoc Huynh, Dawn Song, Bo Li, Ruoxi Jia",
+      conference: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024",
+      arxiv: "https://arxiv.org/pdf/2406.17092"
+    },
+    {
+      title: "FASTTRACK: Reliable Fact Tracing via Clustering and LLM-Powered Evidence Validation",
+      authors: "Si Chen, Feiyang Kang, Ning Yu, Ruoxi Jia",
+      conference: "Empirical Methods in Natural Language Processing (EMNLP) Findings, 2024",
+      arxiv: "https://arxiv.org/pdf/2404.15157"
+    },
+    {
+      title: "Can We Trust the Performance Evaluation of Uncertainty Estimation Methods in Text Summarization?",
+      authors: "Jianfeng He, Runing Yang, Linlin Yu, Changbin Li, Ruoxi Jia, Feng Chen, Ming Jin, Chang-Tien Lu",
+      conference: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024",
+      arxiv: "https://arxiv.org/pdf/2406.17274"
+    },
+    {
+      title: "Data Valuation in the Absence of a Reliable Validation Set",
+      authors: "Himanshu Jahagirdar, Jiachen T. Wang, Ruoxi Jia",
+      conference: "Transactions on Machine Learning Research 2024",
+      openreview: "https://openreview.net/forum?id=xBORyL316c&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)"
+    },
+    {
       title: "Skin-in-the-Game: Decision Making via Multi-Stakeholder Alignment in LLMs",
       authors: "Bilgehan Sel, Priya Shanmugasundaram, Mohammad Kachuee, Kun Zhou, Ruoxi Jia, Ming Jin",
       conference: "Annual Meeting of the Association for Computational Linguistics (ACL), 2024",
@@ -11,7 +56,7 @@ const publications = [
       authors: "Yi Zeng, Hongpeng Lin, Jingwen Zhang, Diyi Yang, Ruoxi Jia, Weiyan Shi",
       conference: "Annual Meeting of the Association for Computational Linguistics (ACL), 2024",
       arxiv: "https://arxiv.org/abs/2401.06373",
-      highlights: []
+      highlights: ["Best Social Impact Paper Award"]
     },
     {
       title: "Rethinking Data Shapley for Data Selection Tasks: Misleads and Merits",
