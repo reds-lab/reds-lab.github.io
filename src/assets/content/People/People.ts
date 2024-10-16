@@ -11,7 +11,7 @@ import tranHuynhImage from "./profile/tran huynh.png";
 import himanshuJahagirdaranImage from "./profile/himanshu jahagirdaran.png";
 import nikhilAbhyankarImage from "./profile/nikhil abhyankar.png";
 import jiachenWangImage from "./profile/jiachen wang.png";
-
+import qianWangImage from "./profile/qian wang.jpg";
 interface Links {
   website?: string;
   github?: string;
@@ -173,7 +173,13 @@ export const peopleData: PeopleGroup[] = [
       details: "Jiachen is a third-year Ph.D. student at Princeton University, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on responsible machine learning, particularly data valuation in foundation models, using statistical and game theory approaches.",
       links: {
         website: "https://tianhaowang.netlify.app/"
-      }
+      }},
+      {
+        profileImage: qianWangImage,
+        name: "Qian Wang",
+        details: "Qian is a fourth-year Ph.D. student at Huazhong University of Science and Technology, working closely with Prof. Ruoxi Jia at Virginia Tech. His research focuses on computer vision, particularly video generation, visual security, and AI agents.",
+        links: {
+        }
     }]
     },
 ];
