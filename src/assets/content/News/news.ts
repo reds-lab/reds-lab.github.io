@@ -5,6 +5,10 @@ interface NewsItem {
 
 const recentNews: NewsItem[] = [
   {
+    date: "January 2025",
+    content: "Congrats Yi for receiving the Blackwell Graduate Research Paper award!"
+  },
+  {
     date: "September 2024",
     content: "Our 3 papers got accepted to NeurIPS, 2024: 'Fairness-Aware Meta-Learning via Nash Bargaining', 'Boosting Alignment for Post-Unlearning Text-to-Image Generative Models' and 'Compute-efficient LLM Training via Online Batch Selection'"
   },

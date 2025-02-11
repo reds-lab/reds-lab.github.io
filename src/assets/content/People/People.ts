@@ -160,7 +160,7 @@ export const peopleData: PeopleGroup[] = [
         details: "MS student, 2022-2023. (Next: PhD student at Virginia Tech)",
         links: {
           website: "https://nikhilsab.github.io/",
-          linkedin: "https://www.linkedin.com/in/nikhil-abhyankar/"
+          linkedin: "https://www.linkedin.com/in/nikhil-abhyanksar/"
         }
       }
     ]
