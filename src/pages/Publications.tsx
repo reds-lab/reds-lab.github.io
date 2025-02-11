@@ -10,6 +10,7 @@ import publicationsPre2020  from '../assets/content/Publications/pre2020pubs';
 import publications2022 from '../assets/content/Publications/2022pubs';
 import publications2023 from '../assets/content/Publications/2023pubs';
 import publications2024 from '../assets/content/Publications/2024pubs';
+import publications2025 from '../assets/content/Publications/2025pubs';
 
 interface Publication {
   title: string;
@@ -93,6 +94,8 @@ const Publications: React.FC = () => {
   return (
     <>
       <h1>Publications</h1>
+      <h2>2025</h2>
+      {renderPublications(publications2025)}
       <h2>2024</h2>
       {renderPublications(publications2024)}
       <h2>2023</h2>

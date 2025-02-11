@@ -1,11 +1,11 @@
 const publications = [
-  {
-    title: "Data-Centric Defense: Shaping Loss Landscape with Augmentations to Counter Model Inversion",
-    authors: "Si Chen, Feiyang Kang, Nikhil Abhyankar, Ming Jin, Ruoxi Jia",
-    conference: "Transactions on Machine Learning Research (TMLR), 2024",
-    openreview: "https://openreview.net/forum?id=VqzKim4Pd0",
-    highlights: []
-  },
+    {
+      title: "Data-Centric Defense: Shaping Loss Landscape with Augmentations to Counter Model Inversion",
+      authors: "Si Chen, Feiyang Kang, Nikhil Abhyankar, Ming Jin, Ruoxi Jia",
+      conference: "Transactions on Machine Learning Research (TMLR), 2024",
+      openreview: "https://openreview.net/forum?id=VqzKim4Pd0",
+      highlights: []
+    },
     {
       title: "Fairness-Aware Meta-Learning via Nash Bargaining",
       authors: "Yi Zeng, Xuelin Yang, Li Chen, Cristian Canton Ferrer, Ming Jin, Michael Jordan, Ruoxi Jia",
