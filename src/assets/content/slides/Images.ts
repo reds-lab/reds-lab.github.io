@@ -4,6 +4,7 @@ import groupPhoto3 from './images/group_photo_3.jpg';
 import groupPhoto4 from './images/group_photo_4.jpg';
 import groupPhoto5 from './images/group_photo_5.jpg';
 import groupPhoto6 from './images/group_photo_6.jpg';
+import groupPhoto7 from './images/group_photo_7.jpg';
 
 // Import additional photos as needed
 
@@ -36,5 +37,9 @@ export const groupPhotos: ImageCaption[] = [
   {
     img: groupPhoto6,
     caption: '3/2024 - casual bowling photo'
+  },
+  {
+    img: groupPhoto7,
+    caption: '4/2025 in Cascade Waterfall'
   },
 ];
