@@ -5,12 +5,20 @@ interface NewsItem {
 
 const recentNews: NewsItem[] = [
   {
-    date: "January 2025",
-    content: "Congrats Yi for receiving the Blackwell Graduate Research Paper award!"
+    date: "April 2025",
+    content: "Our paper titled 'Data Shapley in One Training Run' got the <strong style=\"color: red;\">Outstanding Paper Honorable Mention</strong> at ICLR 2025!"
   },
   {
-    date: "September 2024",
-    content: "Our 3 papers got accepted to NeurIPS, 2024: 'Fairness-Aware Meta-Learning via Nash Bargaining', 'Boosting Alignment for Post-Unlearning Text-to-Image Generative Models' and 'Compute-efficient LLM Training via Online Batch Selection'"
+    date: "April 2025",
+    content: "Yi and Si defended their thesis!"
+  },
+  {
+    date: "March 2025",
+    content: "Ruoxi received the Early Career Scholarly Impact Award!"
+  },
+  {
+    date: "January 2025",
+    content: "Congrats Yi for receiving the Blackwell Graduate Research Paper award!"
   },
   {
     date: "September 2024",
@@ -21,32 +29,12 @@ const recentNews: NewsItem[] = [
     content: "Ruoxi is going to co-organize a tutorial at NeurIPS 2024 on \"<strong>Advancing Data Selection for Foundation Models: From Heuristics to Principled Method</strong>.\" Stay tuned!"
   },
   {
-    date: "September 2024",
-    content: "Our 3 papers got accepted to EMNLP, 2024: 'BEEAR: Embedding-based Adversarial Removal of Safety Backdoors in Instruction-tuned Language Models', 'FASTTRACK: Reliable Fact Tracing via Clustering and LLM-Powered Evidence Validation' and 'Can We Trust the Performance Evaluation of Uncertainty Estimation Methods in Text Summarization'"
-  },
-  {
     date: "August 2024",
     content: "Our paper titled 'How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs' got the <strong style=\"color: red;\">Best Social Impact Paper Award</strong> at ACL 2024! Congrats Yi and co-authors!"
   },
   {
-    date: "August 2024",
-    content: "Our paper titled 'Data Valuation in the Absence of a Reliable Validation Set' got accepted to TMLR 2024!"
-  },
-  {
     date: "July 2024",
     content: "We are organizing the Trustworthy Interactive Decision-Making with Foundation Models Workshop at IJCAI 2024. It will be on August 3. Check out more details <a href='https://sites.google.com/view/ijcai24-tfm' target='_blank' rel='noopener noreferrer'>here</a>!"
-  },
-  {
-    date: "May 2024",
-    content: "Our 2 papers got accepted to ACL, 2024: 'Decision Making via Multi-Stakeholder Alignment in LLMs' and 'How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs'"
-  },
-  {
-    date: "May 2024",
-    content: "Our 4 papers got accepted to ICML, 2024: 'Rethinking Data Shapley for Data Selection Tasks: Misleads and Merits', 'RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content', 'A Safe Harbor for AI Evaluation and Red Teaming', and 'Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models'"
-  },
-  {
-    date: "May 2024",
-    content: "Our paper titled 'Learning to Rank for Active Learning via Multi-Task Bilevel Optimization' got accepted to UAI, 2024!"
   },
   {
     date: "May 2024",
@@ -55,18 +43,6 @@ const recentNews: NewsItem[] = [
   {
     date: "Apr 2024",
     content: "Ruoxi received the Outstanding New Assistant Professor Award!"
-  },
-  {
-    date: "Feb 2024",
-    content: "Our paper titled 'The Mirrored Influence Hypothesis: Efficient Data Influence Estimation by Harnessing Forward Passes' got accepted to CVPR, 2024!"
-  },
-  {
-    date: "Jan 2024",
-    content: "Our paper titled 'Efficient Data Valuation for Weighted Nearest Neighbor Algorithms' got accepted to AISTATS, 2024"
-  },
-  {
-    date: "Jan 2024",
-    content: "Our 2 papers got accepted to ICLR, 2024: 'Get more for less: Principled Data Selection for Warming Up Fine-Tuning in LLMs' and 'Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!'"
   },
   {
     date: "Dec 2023",

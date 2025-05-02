@@ -1,16 +1,30 @@
 const publications = [
   {
+    "title": "Just Enough Shifts: Mitigating Over-Refusal in Aligned Language Models with Targeted Representation Fine-Tuning",
+    "authors": "Mahavir Dabas, Si Chen, Charles Fleming, Ming Jin, Ruoxi Jia",
+    "conference": "International Conference on Machine Learning (ICML), 2025",
+    "arxiv": "",
+    "highlights": []
+  },
+  {
+    "title": "LLMs Can Plan Faster Only If We Let Them",
+    "authors": "Bilgehan Sel, Lifu Huang, Naren Ramakrishnan, Ruoxi Jia, Ming Jin",
+    "conference": "International Conference on Machine Learning (ICML), 2025",
+    "arxiv": "",
+    "highlights": []
+  },
+  {
     "title": "Data Shapley in One Training Run",
     "authors": "Jiachen T. Wang, Prateek Mittal, Dawn Song, Ruoxi Jia",
     "conference": "The Thirteenth International Conference on Learning Representations (ICLR), 2025",
     "arxiv": "https://arxiv.org/abs/2406.11011",
-    "highlights": []
+    "highlights": ["Outstanding Paper Honorable Mention"]
   },
   {
     "title": "LLMs Can Plan Only If We Tell Them",
     "authors": "Bilgehan Sel, Ruoxi Jia, Ming Jin",
     "conference": "The Thirteenth International Conference on Learning Representations (ICLR), 2025",
-    "arxiv": "",
+    "arxiv": "https://arxiv.org/abs/2501.13545",
     "highlights": []
   },
   {
@@ -18,14 +32,14 @@ const publications = [
     "authors": "Jiachen T. Wang, Dawn Song, James Zou, Prateek Mittal, Ruoxi Jia",
     "conference": "The Thirteenth International Conference on Learning Representations (ICLR), 2025",
     "arxiv": "https://arxiv.org/abs/2412.09538",
-    "highlights": []
+    "highlights": ["Oral presentation"]
   },
   {
     "title": "AIR-BENCH 2024: A Safety Benchmark based on Regulation and Policies Specified Risk Categories",
     "authors": "Yi Zeng, Yu Yang, Andy Zhou, Jeffrey Ziwei Tan, Yuheng Tu, Yifan Mai, Kevin Klyman, Minzhou Pan, Ruoxi Jia, Dawn Song, Percy Liang, Bo Li",
     "conference": "The Thirteenth International Conference on Learning Representations (ICLR), 2025",
     "arxiv": "https://arxiv.org/abs/2407.17436",
-    "highlights": []
+    "highlights": ["Spotlight presentation"]
   },
   {
     "title": "SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal",
@@ -38,7 +52,14 @@ const publications = [
     "title": "Mind Control through Causal Inference: Predicting Clean Images from Poisoned Data",
     "authors": "Mengxuan Hu, Zihan Guan, Yi Zeng, Junfeng Guo, Zhongliang Zhou, Jielu Zhang, Ruoxi Jia, Anil Kumar Vullikanti, Sheng Li",
     "conference": "The Thirteenth International Conference on Learning Representations (ICLR), 2025",
-    "arxiv": "",
+    openreview: "https://openreview.net/forum?id=ho4mNiwr2n",
+    "highlights": []
+  },
+  {
+    "title": "Detecting Adversarial Data Using Perturbation Forgery",
+    "authors": "Qian Wang, Chen Li, Yuchen Luo, Hefei Ling, Shijuan Huang, Ruoxi Jia, Ning Yu",
+    "conference": "Conference on Computer Vision and Pattern Recognition (CVPR), 2025",
+    "arxiv": "https://arxiv.org/abs/2405.16226",
     "highlights": []
   },
   {
