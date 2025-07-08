@@ -55,28 +55,6 @@ export const peopleData: PeopleGroup[] = [
     title: "PhD Students",
     people: [
       {
-        profileImage: yiZengImage,
-        name: "Yi Zeng",
-        details: "Yi's research focuses on ensuring AI benefits humanity through advancements in AI safety, AI security, and responsible AI.",
-        links: {
-          // website: "https://yizeng.com",
-          // github: "https://github.com/yizeng",
-          // googleScholar: "https://scholar.google.com/citations?user=jkl012",
-          // linkedin: "https://www.linkedin.com/in/yi-zeng",
-          // twitter: "https://twitter.com/yizeng"
-        }
-      },
-      {
-        profileImage: siChenImage,
-        name: "Si Chen",
-        details: "Si's research focuses on enhancing trustworthiness and privacy of AI by developing defenses against, and analyzing attacks on, AI models.",
-        links: {
-          website: "https://sichen21.netlify.app/",
-          linkedin: "https://www.linkedin.com/in/si-chen-1805001a1/",
-          twitter: "https://twitter.com/si_chen0921"
-        }
-      },
-      {
         profileImage: myeongseobKoImage,
         name: "Myeongseob Ko",
         details: "Myeongseob's research focuses on broad machine learning problems, with a particular emphasis on privacy and a data-centric perspective, aiming ultimately to develop AI systems that interact more effectively and beneficially with humanity.",
@@ -110,12 +88,6 @@ export const peopleData: PeopleGroup[] = [
         details: "Tran's research focuses on understanding the vulnerabilities of AI models and advancing the robustness of AI systems against adversarial threats.",
         links: {}
       },
-      
-    ]
-  },
-  {
-    title: "MS Students",
-    people: [
       {
         profileImage: mahavirDabasImage,
         name: "Mahavir Dabas",
@@ -142,6 +114,18 @@ export const peopleData: PeopleGroup[] = [
   {
     title: "Past Alumni",
     people: [
+      {
+        profileImage: yiZengImage,
+        name: "Yi Zeng",
+        details: "Ph.D. student, 2021-2025. (Next: TikTok)",
+        links: {googleScholar: "https://scholar.google.com/citations?user=slUNmHQAAAAJ&hl=en"}
+      },
+      {
+        profileImage: siChenImage,
+        name: "Si Chen",
+        details: "Ph.D. student, 2020-2025. (Next: Salesforce)",
+        links: {googleScholar: "https://scholar.google.com/citations?hl=en&user=pJvSiBgAAAAJ"}
+      },
       {
         profileImage: minzhouPanImage,
         name: "Minzhou Pan",
