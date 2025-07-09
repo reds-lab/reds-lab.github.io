@@ -1,9 +1,44 @@
 const publications = [
   {
+    "title": "AutoScale: Scale-Aware Data Mixing for Pre-Training LLMs",
+    "authors": "Feiyang Kang, Yifan Sun, Bingbing Wen, Si Chen, Dawn Song, Rafid Mahmood, Ruoxi Jia",
+    "conference": "Conference on Language Modeling (COLM), 2025",
+    "arxiv": "https://arxiv.org/abs/2407.20177",
+    "highlights": []
+  },
+  {
+    "title": "Data-Centric Human Preference with Rationales for Direct Preference Alignment",
+    "authors": "Hoang Anh Just, Ming Jin, Anit Kumar Sahu, Huy Phan, Ruoxi Jia",
+    "conference": "Conference on Language Modeling (COLM), 2025",
+    "arxiv": "https://arxiv.org/abs/2407.14477",
+    "highlights": []
+  },
+  {
+    "title": "LLM Can be a Dangerous Persuader: Empirical Study of Persuasion Safety in Large Language Models",
+    "authors": "Minqian Liu, Zhiyang Xu, Xinyi Zhang, Heajun An, Sarvech Qadir, Qi Zhang, Pamela J. Wisniewski, Jin-Hee Cho, Sang Won Lee, Ruoxi Jia, Lifu Huang",
+    "conference": "Conference on Language Modeling (COLM), 2025",
+    "arxiv": "https://arxiv.org/abs/2504.10430",
+    "highlights": []
+  },
+  {
+    "title": "NaviDet: Efficient Input-level Backdoor Detection on Text-to-Image Synthesis via Neuron Activation Variation",
+    "authors": "Shengfang Zhai, Jiajun Li, Yue Liu, Huanran Chen, Zhihua Tian, Wenjie Qu, Qingni Shen, Ruoxi Jia, Yinpeng Dong, Jiaheng Zhang",
+    "conference": "International Conference on Computer Vision (ICCV), 2025",
+    "arxiv": "https://arxiv.org/abs/2503.06453",
+    "highlights": []
+  },
+  {
+    "title": "Model Residuals as Shields: A Two-Level Formulation to Defend Smart Grids From Poisoning Attacks",
+    "authors": "Tung-Wei Lin, Padmaksha Roy, Yi Zeng, Ming Jin, Ruoxi Jia, Chen-Ching Liu, Alberto Sangiovanni-Vincentelli",
+    "conference": "IEEE Internet of Things Journal, 2025",
+    "arxiv": "https://waynelin567.github.io/files/res.pdf",
+    "highlights": []
+  },
+  {
     "title": "Just Enough Shifts: Mitigating Over-Refusal in Aligned Language Models with Targeted Representation Fine-Tuning",
     "authors": "Mahavir Dabas, Si Chen, Charles Fleming, Ming Jin, Ruoxi Jia",
     "conference": "International Conference on Machine Learning (ICML), 2025",
-    "arxiv": "",
+    "arxiv": "https://arxiv.org/abs/2507.04250",
     "highlights": []
   },
   {
