@@ -11,6 +11,7 @@ import publications2022 from '../assets/content/Publications/2022pubs';
 import publications2023 from '../assets/content/Publications/2023pubs';
 import publications2024 from '../assets/content/Publications/2024pubs';
 import publications2025 from '../assets/content/Publications/2025pubs';
+import publications2026 from '../assets/content/Publications/2026pubs';
 
 interface Publication {
   title: string;
@@ -21,6 +22,7 @@ interface Publication {
   website?: string;
   code?: string;
   openreview?: string;
+  project_page?: string;
   highlights?: string[];
 }
 
@@ -67,6 +69,11 @@ export const renderPublications = (publications: Publication[]) => {
                   </button>
                 </a>
               )}
+              {pub.project_page && (
+                <a href={pub.project_page} target="_blank" rel="noopener noreferrer">
+                  <button className="btn"><FontAwesomeIcon icon={faLink} /> Project Website</button>
+                </a>
+              )}
               {pub.website && (
                 <a href={pub.website} target="_blank" rel="noopener noreferrer">
                   <button className="btn"><FontAwesomeIcon icon={faLink} /> Website</button>
@@ -94,6 +101,8 @@ const Publications: React.FC = () => {
   return (
     <>
       <h1>Publications</h1>
+      <h2>2026</h2>
+      {renderPublications(publications2026)}
       <h2>2025</h2>
       {renderPublications(publications2025)}
       <h2>2024</h2>

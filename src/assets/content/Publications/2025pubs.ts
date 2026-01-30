@@ -1,4 +1,18 @@
 const publications = [
+   {
+    "title": "Probing Hidden Knowledge Holes in Unlearned LLMs",
+    "authors": "Myeongseob Ko, Hoang Anh Just, Charles Fleming, Ming Jin, Ruoxi Jia",
+    "conference": "Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "arxiv": "https://arxiv.org/pdf/2511.00030",
+    "highlights": []
+  },
+   {
+    "title": "A Sustainable AI Economy Needs Data Deals That Work for Generators",
+    "authors": "Ruoxi Jia, Luis Oala, Wenjie Xiong, Suqin Ge, Jiachen T. Wang, Feiyang Kang, Dawn Song",
+    "conference": "Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "arxiv": "https://arxiv.org/pdf/2601.09966",
+    "highlights": []
+  },
   {
     "title": "AutoScale: Scale-Aware Data Mixing for Pre-Training LLMs",
     "authors": "Feiyang Kang, Yifan Sun, Bingbing Wen, Si Chen, Dawn Song, Rafid Mahmood, Ruoxi Jia",
