@@ -56,6 +56,13 @@ const publications = [
     "arxiv": "https://arxiv.org/pdf/2505.183587",
     "highlights": []
   }
+  {
+    "title": "MAViS: A Multi-Agent Framework for Long-Sequence Video Storytelling",
+    "authors": "Qian Wang, Ziqi Huang, Ruoxi Jia, Paul Debevec, Ning Yu",
+    "conference": "Conference of the European Chapter of the Association for Computational Linguistics (EACL), 2026",
+    "arxiv": "https://arxiv.org/pdf/2508.08487",
+    "highlights": []
+  }
     ];
     
     export default publications;
