@@ -55,7 +55,7 @@ const publications = [
     "conference": "Winter Conference on Applications of Computer Vision (WACV), 2026",
     "arxiv": "https://arxiv.org/pdf/2505.183587",
     "highlights": []
-  }
+  },
   {
     "title": "MAViS: A Multi-Agent Framework for Long-Sequence Video Storytelling",
     "authors": "Qian Wang, Ziqi Huang, Ruoxi Jia, Paul Debevec, Ning Yu",
