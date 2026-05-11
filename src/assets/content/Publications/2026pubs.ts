@@ -1,5 +1,17 @@
 const publications = [
   {
+    "title": "The Signal is in the Steps: Local Scoring for Reasoning Data Selection",
+    "authors": "Hoang Anh Just, Myeongseob Ko, Ruoxi Jia",
+    "conference": "International Conference on Machine Learning (ICML), 2026",
+    "highlights": ["Spotlight"]
+  },
+  {
+    "title": "From Weak Cues to Real Identities: Evaluating Inference-Driven De-Anonymization in LLM Agents",
+    "authors": "Myeongseob Ko, Jihyun Jeong, Sumiran Singh Thakur, Gyuhak Kim, Ruoxi Jia",
+    "conference": "International Conference on Machine Learning (ICML), 2026",
+    "highlights": []
+  },
+  {
     "title": "Adversarial Déjà Vu: Jailbreak Dictionary Learning for Stronger Generalization to Unseen Attacks",
     "authors": "Mahavir Dabas, Tran Huynh, Nikhil Reddy Billa, Jiachen T. Wang, Peng Gao, Charith Peris, Yao Ma, Rahul Gupta, Ming Jin, Prateek Mittal, Ruoxi Jia",
     "conference": "International Conference on Learning Representations (ICLR), 2026",
