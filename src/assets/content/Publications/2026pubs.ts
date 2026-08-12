@@ -1,5 +1,25 @@
 const publications = [
   {
+    "title": "Understanding and Preserving Safety in Fine-Tuned LLMs",
+    "authors": "Jiawen Zhang, Yangfan Hu, Kejia Chen, Lipeng He, Jiachen Ma, Jian Lou, Dan Li, Jian Liu, Xiaohu Yang, Ruoxi Jia",
+    "conference": "ACM Conference on Computer and Communications Security (CCS), 2026",
+    "arxiv": "https://arxiv.org/pdf/2601.10141",
+    "highlights": []
+  },
+  {
+    "title": "Characterizing Model-Native Skills",
+    "authors": "Feiyang Kang, Mahavir Dabas, Myeongseob Ko, Ruoxi Jia",
+    "conference": "Conference on Language Modeling (COLM), 2026",
+    "arxiv": "https://arxiv.org/pdf/2604.17614",
+    "highlights": []
+  },
+  {
+    "title": "Capacity-Dependent Effects of Data Selection for Mathematical Reasoning",
+    "authors": "Dang Cao Cuong, Hoang Anh Just, Ruoxi Jia",
+    "conference": "Conference on Language Modeling (COLM), 2026",
+    "highlights": []
+  },
+  {
     "title": "The Signal is in the Steps: Local Scoring for Reasoning Data Selection",
     "authors": "Hoang Anh Just, Myeongseob Ko, Ruoxi Jia",
     "conference": "International Conference on Machine Learning (ICML), 2026",
