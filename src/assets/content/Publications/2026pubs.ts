@@ -1,5 +1,12 @@
 const publications = [
   {
+    "title": "Can Generalist Agents Automate Data Curation?",
+    "authors": "Feiyang Kang, Hanze Li, Adam Nguyen, Mahavir Dabas, Jiaqi W. Ma, Frederic Sala, Dawn Song, Ruoxi Jia",
+    "conference": "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026",
+    "arxiv": "https://arxiv.org/pdf/2606.04261",
+    "highlights": []
+  },
+  {
     "title": "Understanding and Preserving Safety in Fine-Tuned LLMs",
     "authors": "Jiawen Zhang, Yangfan Hu, Kejia Chen, Lipeng He, Jiachen Ma, Jian Lou, Dan Li, Jian Liu, Xiaohu Yang, Ruoxi Jia",
     "conference": "ACM Conference on Computer and Communications Security (CCS), 2026",
@@ -17,18 +24,21 @@ const publications = [
     "title": "Capacity-Dependent Effects of Data Selection for Mathematical Reasoning",
     "authors": "Dang Cao Cuong, Hoang Anh Just, Ruoxi Jia",
     "conference": "Conference on Language Modeling (COLM), 2026",
+    "arxiv": "https://arxiv.org/pdf/2608.13721v1",
     "highlights": []
   },
   {
     "title": "The Signal is in the Steps: Local Scoring for Reasoning Data Selection",
     "authors": "Hoang Anh Just, Myeongseob Ko, Ruoxi Jia",
     "conference": "International Conference on Machine Learning (ICML), 2026",
-    "highlights": ["Spotlight"]
+    "arxiv": "https://arxiv.org/pdf/2510.03988",
+    "highlights": ["Oral Presentation"]
   },
   {
     "title": "From Weak Cues to Real Identities: Evaluating Inference-Driven De-Anonymization in LLM Agents",
     "authors": "Myeongseob Ko, Jihyun Jeong, Sumiran Singh Thakur, Gyuhak Kim, Ruoxi Jia",
     "conference": "International Conference on Machine Learning (ICML), 2026",
+    "arxiv": "https://arxiv.org/pdf/2603.18382",
     "highlights": []
   },
   {
